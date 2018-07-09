@@ -1,0 +1,866 @@
+<?xml version="1.0" ?>
+  <flights>
+    <route>
+      <flight id="KL1152">
+        <flightID>KL1152</flightID>
+        <origin>GOT</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:20:00</departureTime>
+        <arrivalTime>30/05/2017 05:50:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>4239</fuel>
+      </flight>
+      <flight id="KL1341">
+        <flightID>KL1341</flightID>
+        <origin>AMS</origin>
+        <destination>BLL</destination>
+        <departureTime>30/05/2017 06:25:00</departureTime>
+        <arrivalTime>30/05/2017 07:30:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>6928</fuel>
+      </flight>
+      <flight id="KL1342">
+        <flightID>KL1342</flightID>
+        <origin>BLL</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:05:00</departureTime>
+        <arrivalTime>30/05/2017 09:15:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>3614</fuel>
+      </flight>
+      <flight id="KL1145">
+        <flightID>KL1145</flightID>
+        <origin>AMS</origin>
+        <destination>OSL</destination>
+        <departureTime>30/05/2017 09:50:00</departureTime>
+        <arrivalTime>30/05/2017 11:35:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4651</fuel>
+      </flight>
+      <flight id="KL1146">
+        <flightID>KL1146</flightID>
+        <origin>OSL</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:10:00</departureTime>
+        <arrivalTime>30/05/2017 14:00:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4651</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1880">
+        <flightID>KL1880</flightID>
+        <origin>NUE</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:00:00</departureTime>
+        <arrivalTime>30/05/2017 05:20:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>3603</fuel>
+      </flight>
+      <flight id="KL1413">
+        <flightID>KL1413</flightID>
+        <origin>AMS</origin>
+        <destination>LYS</destination>
+        <departureTime>30/05/2017 05:55:00</departureTime>
+        <arrivalTime>30/05/2017 07:30:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>7324</fuel>
+      </flight>
+      <flight id="KL1414">
+        <flightID>KL1414</flightID>
+        <origin>LYS</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:05:00</departureTime>
+        <arrivalTime>30/05/2017 09:45:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4327</fuel>
+      </flight>
+      <flight id="KL959">
+        <flightID>KL959</flightID>
+        <origin>AMS</origin>
+        <destination>NCL</destination>
+        <departureTime>30/05/2017 10:25:00</departureTime>
+        <arrivalTime>30/05/2017 11:40:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>3715</fuel>
+      </flight>
+      <flight id="KL960">
+        <flightID>KL960</flightID>
+        <origin>NCL</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:15:00</departureTime>
+        <arrivalTime>30/05/2017 13:35:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>3715</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1762">
+        <flightID>KL1762</flightID>
+        <origin>FRA</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 05:00:00</departureTime>
+        <arrivalTime>30/05/2017 06:10:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>3615</fuel>
+      </flight>
+      <flight id="KL1753">
+        <flightID>KL1753</flightID>
+        <origin>AMS</origin>
+        <destination>BRE</destination>
+        <departureTime>30/05/2017 06:45:00</departureTime>
+        <arrivalTime>30/05/2017 07:40:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>4810</fuel>
+      </flight>
+      <flight id="KL1754">
+        <flightID>KL1754</flightID>
+        <origin>BRE</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:15:00</departureTime>
+        <arrivalTime>30/05/2017 09:10:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>3040</fuel>
+      </flight>
+      <flight id="KL1417">
+        <flightID>KL1417</flightID>
+        <origin>AMS</origin>
+        <destination>LYS</destination>
+        <departureTime>30/05/2017 09:45:00</departureTime>
+        <arrivalTime>30/05/2017 11:20:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>4250</fuel>
+      </flight>
+      <flight id="KL1818">
+        <flightID>KL1818</flightID>
+        <origin>LYS</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 11:55:00</departureTime>
+        <arrivalTime>30/05/2017 13:40:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4250</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1351">
+        <flightID>KL1351</flightID>
+        <origin>AMS</origin>
+        <destination>PRG</destination>
+        <departureTime>30/05/2017 04:45:00</departureTime>
+        <arrivalTime>30/05/2017 06:15:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>6802</fuel>
+      </flight>
+      <flight id="KL1352">
+        <flightID>KL1352</flightID>
+        <origin>PRG</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 06:50:00</departureTime>
+        <arrivalTime>30/05/2017 08:25:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4003</fuel>
+      </flight>
+      <flight id="KL1583">
+        <flightID>KL1583</flightID>
+        <origin>AMS</origin>
+        <destination>BLQ</destination>
+        <departureTime>30/05/2017 08:45:00</departureTime>
+        <arrivalTime>30/05/2017 10:35:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>8268</fuel>
+      </flight>
+      <flight id="KL1584">
+        <flightID>KL1584</flightID>
+        <origin>BLQ</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 11:15:00</departureTime>
+        <arrivalTime>30/05/2017 13:20:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>4947</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1441">
+        <flightID>KL1441</flightID>
+        <origin>AMS</origin>
+        <destination>ABZ</destination>
+        <departureTime>30/05/2017 06:15:00</departureTime>
+        <arrivalTime>30/05/2017 07:45:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>6928</fuel>
+      </flight>
+      <flight id="KL1442">
+        <flightID>KL1442</flightID>
+        <origin>ABZ</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:15:00</departureTime>
+        <arrivalTime>30/05/2017 09:45:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4263</fuel>
+      </flight>
+      <flight id="KL1425">
+        <flightID>KL1425</flightID>
+        <origin>AMS</origin>
+        <destination>BHX</destination>
+        <departureTime>30/05/2017 10:30:00</departureTime>
+        <arrivalTime>30/05/2017 11:45:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>4263</fuel>
+      </flight>
+      <flight id="KL1426">
+        <flightID>KL1426</flightID>
+        <origin>BHX</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:20:00</departureTime>
+        <arrivalTime>30/05/2017 13:30:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>3469</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1992">
+        <flightID>KL1992</flightID>
+        <origin>KRK</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:40:00</departureTime>
+        <arrivalTime>30/05/2017 06:40:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>4722</fuel>
+      </flight>
+      <flight id="KL1173">
+        <flightID>KL1173</flightID>
+        <origin>AMS</origin>
+        <destination>TRD</destination>
+        <departureTime>30/05/2017 07:20:00</departureTime>
+        <arrivalTime>30/05/2017 09:25:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>9220</fuel>
+      </flight>
+      <flight id="KL1174">
+        <flightID>KL1174</flightID>
+        <origin>TRD</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 09:55:00</departureTime>
+        <arrivalTime>30/05/2017 12:10:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>5414</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1300">
+        <flightID>KL1300</flightID>
+        <origin>TLS</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:10:00</departureTime>
+        <arrivalTime>30/05/2017 06:05:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>4971</fuel>
+      </flight>
+      <flight id="KL1421">
+        <flightID>KL1421</flightID>
+        <origin>AMS</origin>
+        <destination>BHX</destination>
+        <departureTime>30/05/2017 06:45:00</departureTime>
+        <arrivalTime>30/05/2017 07:55:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>5797</fuel>
+      </flight>
+      <flight id="KL1422">
+        <flightID>KL1422</flightID>
+        <origin>BHX</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:40:00</departureTime>
+        <arrivalTime>30/05/2017 09:50:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>3567</fuel>
+      </flight>
+      <flight id="KL1873">
+        <flightID>KL1873</flightID>
+        <origin>AMS</origin>
+        <destination>STR</destination>
+        <departureTime>30/05/2017 10:35:00</departureTime>
+        <arrivalTime>30/05/2017 11:45:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>3558</fuel>
+      </flight>
+      <flight id="KL1874">
+        <flightID>KL1874</flightID>
+        <origin>STR</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:20:00</departureTime>
+        <arrivalTime>30/05/2017 13:45:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>3558</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1866">
+        <flightID>KL1866</flightID>
+        <origin>STR</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:00:00</departureTime>
+        <arrivalTime>30/05/2017 05:20:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>3683</fuel>
+      </flight>
+      <flight id="KL1867">
+        <flightID>KL1867</flightID>
+        <origin>AMS</origin>
+        <destination>STR</destination>
+        <departureTime>30/05/2017 05:55:00</departureTime>
+        <arrivalTime>30/05/2017 07:10:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>6072</fuel>
+      </flight>
+      <flight id="KL1868">
+        <flightID>KL1868</flightID>
+        <origin>STR</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 07:45:00</departureTime>
+        <arrivalTime>30/05/2017 09:10:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>3606</fuel>
+      </flight>
+      <flight id="KL1315">
+        <flightID>KL1315</flightID>
+        <origin>AMS</origin>
+        <destination>BOD</destination>
+        <departureTime>30/05/2017 09:45:00</departureTime>
+        <arrivalTime>30/05/2017 11:25:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>4404</fuel>
+      </flight>
+      <flight id="KL1316">
+        <flightID>KL1316</flightID>
+        <origin>BOD</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:00:00</departureTime>
+        <arrivalTime>30/05/2017 13:50:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>4404</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1140">
+        <flightID>KL1140</flightID>
+        <origin>OSL</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:30:00</departureTime>
+        <arrivalTime>30/05/2017 06:20:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4727</fuel>
+      </flight>
+      <flight id="KL1723">
+        <flightID>KL1723</flightID>
+        <origin>AMS</origin>
+        <destination>BRU</destination>
+        <departureTime>30/05/2017 07:10:00</departureTime>
+        <arrivalTime>30/05/2017 07:55:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>3087</fuel>
+      </flight>
+      <flight id="KL1724">
+        <flightID>KL1724</flightID>
+        <origin>BRU</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:35:00</departureTime>
+        <arrivalTime>30/05/2017 09:35:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>2869</fuel>
+      </flight>
+      <flight id="KL1929">
+        <flightID>KL1929</flightID>
+        <origin>AMS</origin>
+        <destination>GVA</destination>
+        <departureTime>30/05/2017 10:10:00</departureTime>
+        <arrivalTime>30/05/2017 11:35:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>6679</fuel>
+      </flight>
+      <flight id="KL1930">
+        <flightID>KL1930</flightID>
+        <origin>GVA</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:10:00</departureTime>
+        <arrivalTime>30/05/2017 13:55:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>4168</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1554">
+        <flightID>KL1554</flightID>
+        <origin>TRN</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:35:00</departureTime>
+        <arrivalTime>30/05/2017 06:35:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4447</fuel>
+      </flight>
+      <flight id="KL1181">
+        <flightID>KL1181</flightID>
+        <origin>AMS</origin>
+        <destination>LPI</destination>
+        <departureTime>30/05/2017 07:30:00</departureTime>
+        <arrivalTime>30/05/2017 09:15:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>7540</fuel>
+      </flight>
+      <flight id="KL1132">
+        <flightID>KL1132</flightID>
+        <origin>LPI</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 09:45:00</departureTime>
+        <arrivalTime>30/05/2017 11:30:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4471</fuel>
+      </flight>
+      <flight id="KL1687">
+        <flightID>KL1687</flightID>
+        <origin>AMS</origin>
+        <destination>BIO</destination>
+        <departureTime>30/05/2017 12:10:00</departureTime>
+        <arrivalTime>30/05/2017 14:15:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>5050</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1212">
+        <flightID>KL1212</flightID>
+        <origin>TRF</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:15:00</departureTime>
+        <arrivalTime>30/05/2017 05:50:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4318</fuel>
+      </flight>
+      <flight id="KL1883">
+        <flightID>KL1883</flightID>
+        <origin>AMS</origin>
+        <destination>NUE</destination>
+        <departureTime>30/05/2017 06:30:00</departureTime>
+        <arrivalTime>30/05/2017 07:45:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>5674</fuel>
+      </flight>
+      <flight id="KL1884">
+        <flightID>KL1884</flightID>
+        <origin>NUE</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:15:00</departureTime>
+        <arrivalTime>30/05/2017 09:30:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>3627</fuel>
+      </flight>
+      <flight id="KL1445">
+        <flightID>KL1445</flightID>
+        <origin>AMS</origin>
+        <destination>ABZ</destination>
+        <departureTime>30/05/2017 10:15:00</departureTime>
+        <arrivalTime>30/05/2017 11:45:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>3627</fuel>
+      </flight>
+      <flight id="KL1446">
+        <flightID>KL1446</flightID>
+        <origin>ABZ</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:15:00</departureTime>
+        <arrivalTime>30/05/2017 13:45:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4180</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1260">
+        <flightID>KL1260</flightID>
+        <origin>NCE</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:25:00</departureTime>
+        <arrivalTime>30/05/2017 06:25:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4915</fuel>
+      </flight>
+      <flight id="KL1739">
+        <flightID>KL1739</flightID>
+        <origin>AMS</origin>
+        <destination>LUX</destination>
+        <departureTime>30/05/2017 07:05:00</departureTime>
+        <arrivalTime>30/05/2017 08:00:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>5066</fuel>
+      </flight>
+      <flight id="KL1740">
+        <flightID>KL1740</flightID>
+        <origin>LUX</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:30:00</departureTime>
+        <arrivalTime>30/05/2017 09:35:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>3296</fuel>
+      </flight>
+      <flight id="KL1157">
+        <flightID>KL1157</flightID>
+        <origin>AMS</origin>
+        <destination>GOT</destination>
+        <departureTime>30/05/2017 10:15:00</departureTime>
+        <arrivalTime>30/05/2017 11:40:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4050</fuel>
+      </flight>
+      <flight id="KL1158">
+        <flightID>KL1158</flightID>
+        <origin>GOT</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:10:00</departureTime>
+        <arrivalTime>30/05/2017 13:45:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4050</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1855">
+        <flightID>KL1855</flightID>
+        <origin>AMS</origin>
+        <destination>DUS</destination>
+        <departureTime>30/05/2017 09:00:00</departureTime>
+        <arrivalTime>30/05/2017 09:50:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4334</fuel>
+      </flight>
+      <flight id="KL1856">
+        <flightID>KL1856</flightID>
+        <origin>DUS</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 10:25:00</departureTime>
+        <arrivalTime>30/05/2017 11:25:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>2914</fuel>
+      </flight>
+      <flight id="KL1397">
+        <flightID>KL1397</flightID>
+        <origin>AMS</origin>
+        <destination>PRG</destination>
+        <departureTime>30/05/2017 12:05:00</departureTime>
+        <arrivalTime>30/05/2017 13:35:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4003</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1178">
+        <flightID>KL1178</flightID>
+        <origin>LPI</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:10:00</departureTime>
+        <arrivalTime>30/05/2017 05:55:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4565</fuel>
+      </flight>
+      <flight id="KL1639">
+        <flightID>KL1639</flightID>
+        <origin>AMS</origin>
+        <destination>FLR</destination>
+        <departureTime>30/05/2017 06:40:00</departureTime>
+        <arrivalTime>30/05/2017 08:40:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>5553</fuel>
+      </flight>
+      <flight id="KL1640">
+        <flightID>KL1640</flightID>
+        <origin>PLR</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 09:20:00</departureTime>
+        <arrivalTime>30/05/2017 11:30:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>5206</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1684">
+        <flightID>KL1684</flightID>
+        <origin>BIO</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:45:00</departureTime>
+        <arrivalTime>30/05/2017 07:00:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>5050</fuel>
+      </flight>
+      <flight id="KL1641">
+        <flightID>KL1641</flightID>
+        <origin>AMS</origin>
+        <destination>FKR</destination>
+        <departureTime>30/05/2017 07:35:00</departureTime>
+        <arrivalTime>30/05/2017 09:35:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>5613</fuel>
+      </flight>
+      <flight id="KL1642">
+        <flightID>KL1642</flightID>
+        <origin>FKR</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 10:15:00</departureTime>
+        <arrivalTime>30/05/2017 12:25:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>5201</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1172">
+        <flightID>KL1172</flightID>
+        <origin>TRO</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:15:00</departureTime>
+        <arrivalTime>30/05/2017 06:30:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>5371</fuel>
+      </flight>
+      <flight id="KL1059">
+        <flightID>KL1059</flightID>
+        <origin>AMS</origin>
+        <destination>CWL</destination>
+        <departureTime>30/05/2017 07:10:00</departureTime>
+        <arrivalTime>30/05/2017 08:30:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>5862</fuel>
+      </flight>
+      <flight id="KL1060">
+        <flightID>KL1060</flightID>
+        <origin>CWL</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 09:00:00</departureTime>
+        <arrivalTime>30/05/2017 10:50:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>3713</fuel>
+      </flight>
+      <flight id="KL1781">
+        <flightID>KL1781</flightID>
+        <origin>AMS</origin>
+        <destination>HAM</destination>
+        <departureTime>30/05/2017 11:25:00</departureTime>
+        <arrivalTime>30/05/2017 12:30:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>3102</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1153">
+        <flightID>KL1153</flightID>
+        <origin>AMS</origin>
+        <destination>GOT</destination>
+        <departureTime>30/05/2017 05:45:00</departureTime>
+        <arrivalTime>30/05/2017 07:15:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>4715</fuel>
+      </flight>
+      <flight id="KL1154">
+        <flightID>KL1154</flightID>
+        <origin>GOT</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 07:45:00</departureTime>
+        <arrivalTime>30/05/2017 09:20:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4044</fuel>
+      </flight>
+      <flight id="KL1187">
+        <flightID>KL1187</flightID>
+        <origin>AMS</origin>
+        <destination>BGO</destination>
+        <departureTime>30/05/2017 09:55:00</departureTime>
+        <arrivalTime>30/05/2017 11:35:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>4562</fuel>
+      </flight>
+      <flight id="KL1188">
+        <flightID>KL1188</flightID>
+        <origin>BGO</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:05:00</departureTime>
+        <arrivalTime>30/05/2017 13:50:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>4562</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1925">
+        <flightID>KL1925</flightID>
+        <origin>AMS</origin>
+        <destination>GVA</destination>
+        <departureTime>30/05/2017 05:00:00</departureTime>
+        <arrivalTime>30/05/2017 06:20:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>7097</fuel>
+      </flight>
+      <flight id="KL1926">
+        <flightID>KL1926</flightID>
+        <origin>GVA</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 07:05:00</departureTime>
+        <arrivalTime>30/05/2017 08:45:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4284</fuel>
+      </flight>
+      <flight id="KL1303">
+        <flightID>KL1303</flightID>
+        <origin>AMS</origin>
+        <destination>TLS</destination>
+        <departureTime>30/05/2017 09:45:00</departureTime>
+        <arrivalTime>30/05/2017 11:35:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>7987</fuel>
+      </flight>
+      <flight id="KL1304">
+        <flightID>KL1304</flightID>
+        <origin>TLS</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 12:05:00</departureTime>
+        <arrivalTime>30/05/2017 14:05:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>4840</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1232">
+        <flightID>KL1232</flightID>
+        <origin>AES</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:30:00</departureTime>
+        <arrivalTime>30/05/2017 06:45:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>4994</fuel>
+      </flight>
+      <flight id="KL1555">
+        <flightID>KL1555</flightID>
+        <origin>AMS</origin>
+        <destination>TRN</destination>
+        <departureTime>30/05/2017 07:30:00</departureTime>
+        <arrivalTime>30/05/2017 09:15:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>9220</fuel>
+      </flight>
+      <flight id="KL1556">
+        <flightID>KL1556</flightID>
+        <origin>TRN</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 09:45:00</departureTime>
+        <arrivalTime>30/05/2017 11:40:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4472</fuel>
+      </flight>
+      <flight id="KL1995">
+        <flightID>KL1995</flightID>
+        <origin>AMS</origin>
+        <destination>KRK</destination>
+        <departureTime>30/05/2017 12:25:00</departureTime>
+        <arrivalTime>30/05/2017 14:20:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4722</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1314">
+        <flightID>KL1314</flightID>
+        <origin>BOD</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:10:00</departureTime>
+        <arrivalTime>30/05/2017 05:50:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>4615</fuel>
+      </flight>
+      <flight id="KL1185">
+        <flightID>KL1185</flightID>
+        <origin>AMS</origin>
+        <destination>BGO</destination>
+        <departureTime>30/05/2017 06:30:00</departureTime>
+        <arrivalTime>30/05/2017 08:10:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>7617</fuel>
+      </flight>
+      <flight id="KL1186">
+        <flightID>KL1186</flightID>
+        <origin>BGO</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:40:00</departureTime>
+        <arrivalTime>30/05/2017 10:25:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>4566</fuel>
+      </flight>
+      <flight id="KL1051">
+        <flightID>KL1051</flightID>
+        <origin>AMS</origin>
+        <destination>BRS</destination>
+        <departureTime>30/05/2017 11:00:00</departureTime>
+        <arrivalTime>30/05/2017 12:15:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>5597</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1582">
+        <flightID>KL1582</flightID>
+        <origin>BLQ</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:00:00</departureTime>
+        <arrivalTime>30/05/2017 06:00:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>5043</fuel>
+      </flight>
+      <flight id="KL1301">
+        <flightID>KL1301</flightID>
+        <origin>AMS</origin>
+        <destination>TLS</destination>
+        <departureTime>30/05/2017 06:35:00</departureTime>
+        <arrivalTime>30/05/2017 08:25:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>8300</fuel>
+      </flight>
+      <flight id="KL1302">
+        <flightID>KL1302</flightID>
+        <origin>TLS</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:55:00</departureTime>
+        <arrivalTime>30/05/2017 10:50:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>4967</fuel>
+      </flight>
+    </route>
+    <route>
+      <flight id="KL1332">
+        <flightID>KL1332</flightID>
+        <origin>ALL</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 04:20:00</departureTime>
+        <arrivalTime>30/05/2017 05:40:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4088</fuel>
+      </flight>
+      <flight id="KL1049">
+        <flightID>KL1049</flightID>
+        <origin>AMS</origin>
+        <destination>BRS</destination>
+        <departureTime>30/05/2017 06:30:00</departureTime>
+        <arrivalTime>30/05/2017 07:45:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>5597</fuel>
+      </flight>
+      <flight id="KL1050">
+        <flightID>KL1050</flightID>
+        <origin>BRS</origin>
+        <destination>AMS</destination>
+        <departureTime>30/05/2017 08:15:00</departureTime>
+        <arrivalTime>30/05/2017 09:30:00</arrivalTime>
+        <flightValue>5000</flightValue>
+        <fuel>3559</fuel>
+      </flight>
+      <flight id="KL1547">
+        <flightID>KL1547</flightID>
+        <origin>AMS</origin>
+        <destination>LBA</destination>
+        <departureTime>30/05/2017 10:40:00</departureTime>
+        <arrivalTime>30/05/2017 11:50:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>3261</fuel>
+      </flight>
+    </route>
+  </flights>

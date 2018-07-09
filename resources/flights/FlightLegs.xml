@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<flights>
+	<route>
+		<flight id="1001">
+			<flightID>1001</flightID>
+			<origin>GRU</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 07:00</departureTime>
+			<arrivalTime>30/05/2017 08:00</arrivalTime>
+		</flight>
+
+		<flight id="1002">
+			<flightID>1002</flightID>
+			<origin>GIG</origin>
+			<destination>SSA</destination>
+			<departureTime>30/05/2017 09:00</departureTime>
+			<arrivalTime>30/05/2017 10:30</arrivalTime>
+		</flight>
+
+		<flight id="1003">
+			<flightID>1003</flightID>
+			<origin>SSA</origin>
+			<destination>REC</destination>
+			<departureTime>30/05/2017 11:30</departureTime>
+			<arrivalTime>30/05/2017 12:30</arrivalTime>
+		</flight>
+
+		<flight id="1004">
+			<flightID>1004</flightID>
+			<origin>REC</origin>
+			<destination>SSA</destination>
+			<departureTime>30/05/2017 16:30</departureTime>
+			<arrivalTime>30/05/2017 17:30</arrivalTime>
+		</flight>
+
+		<flight id="1005">
+			<flightID>1005</flightID>
+			<origin>SSA</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 18:30</departureTime>
+			<arrivalTime>30/05/2017 20:00</arrivalTime>
+		</flight>
+
+		<flight id="1006">
+			<flightID>1006</flightID>
+			<origin>GIG</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 21:00</departureTime>
+			<arrivalTime>30/05/2017 22:00</arrivalTime>
+		</flight>
+
+	</route>
+
+	<route>
+		<flight id="2007">
+			<flightID>2007</flightID>
+			<origin>REC</origin>
+			<destination>SSA</destination>
+			<departureTime>30/05/2017 07:30</departureTime>
+			<arrivalTime>30/05/2017 08:30</arrivalTime>
+		</flight>
+
+		<flight id="2008">
+			<flightID>2008</flightID>
+			<origin>SSA</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 11:30</departureTime>
+			<arrivalTime>30/05/2017 13:00</arrivalTime>
+		</flight>
+
+		<flight id="2009">
+			<flightID>2009</flightID>
+			<origin>GIG</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 14:30</departureTime>
+			<arrivalTime>30/05/2017 15:30</arrivalTime>
+		</flight>
+
+		<flight id="2010">
+			<flightID>2010</flightID>
+			<origin>GRU</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 17:00</departureTime>
+			<arrivalTime>30/05/2017 18:00</arrivalTime>
+		</flight>
+
+		<flight id="2011">
+			<flightID>2011</flightID>
+			<origin>GIG</origin>
+			<destination>SSA</destination>
+			<departureTime>30/05/2017 19:00</departureTime>
+			<arrivalTime>30/05/2017 20:30</arrivalTime>
+		</flight>
+
+		<flight id="2012">
+			<flightID>2012</flightID>
+			<origin>SSA</origin>
+			<destination>REC</destination>
+			<departureTime>30/05/2017 21:30</departureTime>
+			<arrivalTime>30/05/2017 22:30</arrivalTime>
+		</flight>
+
+	</route>
+
+	<route>
+		<flight id="3013">
+			<flightID>3013</flightID>
+			<origin>GIG</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 07:00</departureTime>
+			<arrivalTime>30/05/2017 08:00</arrivalTime>
+		</flight>
+
+		<flight id="3014">
+			<flightID>3014</flightID>
+			<origin>GRU</origin>
+			<destination>BSB</destination>
+			<departureTime>30/05/2017 09:00</departureTime>
+			<arrivalTime>30/05/2017 11:00</arrivalTime>
+		</flight>
+
+		<flight id="3015">
+			<flightID>3015</flightID>
+			<origin>BSB</origin>
+			<destination>MAO</destination>
+			<departureTime>30/05/2017 12:00</departureTime>
+			<arrivalTime>30/05/2017 14:00</arrivalTime>
+		</flight>
+
+		<flight id="3016">
+			<flightID>3016</flightID>
+			<origin>MAO</origin>
+			<destination>BSB</destination>
+			<departureTime>30/05/2017 15:00</departureTime>
+			<arrivalTime>30/05/2017 17:00</arrivalTime>
+		</flight>
+
+		<flight id="3017">
+			<flightID>3017</flightID>
+			<origin>BSB</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 18:00</departureTime>
+			<arrivalTime>30/05/2017 20:00</arrivalTime>
+		</flight>
+
+		<flight id="3018">
+			<flightID>3018</flightID>
+			<origin>GRU</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 21:00</departureTime>
+			<arrivalTime>30/05/2017 22:00</arrivalTime>
+		</flight>
+
+	</route>
+
+	<route>
+		<flight id="4019">
+			<flightID>4019</flightID>
+			<origin>MAO</origin>
+			<destination>BSB</destination>
+			<departureTime>30/05/2017 06:30</departureTime>
+			<arrivalTime>30/05/2017 08:30</arrivalTime>
+		</flight>
+
+		<flight id="4020">
+			<flightID>4020</flightID>
+			<origin>BSB</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 09:30</departureTime>
+			<arrivalTime>30/05/2017 11:30</arrivalTime>
+		</flight>
+
+		<flight id="4021">
+			<flightID>4021</flightID>
+			<origin>GRU</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 12:30</departureTime>
+			<arrivalTime>30/05/2017 13:30</arrivalTime>
+		</flight>
+
+		<flight id="4022">
+			<flightID>4022</flightID>
+			<origin>GIG</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 15:30</departureTime>
+			<arrivalTime>30/05/2017 16:30</arrivalTime>
+		</flight>
+
+		<flight id="4023">
+			<flightID>4023</flightID>
+			<origin>GRU</origin>
+			<destination>BSB</destination>
+			<departureTime>30/05/2017 17:30</departureTime>
+			<arrivalTime>30/05/2017 19:30</arrivalTime>
+		</flight>
+
+		<flight id="4024">
+			<flightID>4024</flightID>
+			<origin>BSB</origin>
+			<destination>MAO</destination>
+			<departureTime>30/05/2017 20:30</departureTime>
+			<arrivalTime>30/05/2017 22:30</arrivalTime>
+		</flight>
+
+	</route>
+
+	<route>
+		<flight id="5025">
+			<flightID>5025</flightID>
+			<origin>GRU</origin>
+			<destination>CWB</destination>
+			<departureTime>30/05/2017 07:30</departureTime>
+			<arrivalTime>30/05/2017 08:30</arrivalTime>
+		</flight>
+
+		<flight id="5026">
+			<flightID>5026</flightID>
+			<origin>CWB</origin>
+			<destination>FLN</destination>
+			<departureTime>30/05/2017 09:30</departureTime>
+			<arrivalTime>30/05/2017 10:30</arrivalTime>
+		</flight>
+
+		<flight id="5027">
+			<flightID>5027</flightID>
+			<origin>FLN</origin>
+			<destination>POA</destination>
+			<departureTime>30/05/2017 11:30</departureTime>
+			<arrivalTime>30/05/2017 12:30</arrivalTime>
+		</flight>
+
+		<flight id="5028">
+			<flightID>5028</flightID>
+			<origin>POA</origin>
+			<destination>FLN</destination>
+			<departureTime>30/05/2017 18:00</departureTime>
+			<arrivalTime>30/05/2017 19:00</arrivalTime>
+		</flight>
+
+		<flight id="5029">
+			<flightID>5029</flightID>
+			<origin>FLN</origin>
+			<destination>CWB</destination>
+			<departureTime>30/05/2017 20:00</departureTime>
+			<arrivalTime>30/05/2017 21:00</arrivalTime>
+		</flight>
+
+		<flight id="5030">
+			<flightID>5030</flightID>
+			<origin>CWB</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 22:00</departureTime>
+			<arrivalTime>30/05/2017 23:00</arrivalTime>
+		</flight>
+
+	</route>
+
+	<route>
+		<flight id="6031">
+			<flightID>6031</flightID>
+			<origin>POA</origin>
+			<destination>FLN</destination>
+			<departureTime>30/05/2017 07:30</departureTime>
+			<arrivalTime>30/05/2017 08:30</arrivalTime>
+		</flight>
+
+		<flight id="6032">
+			<flightID>6032</flightID>
+			<origin>FLN</origin>
+			<destination>CWB</destination>
+			<departureTime>30/05/2017 09:30</departureTime>
+			<arrivalTime>30/05/2017 10:30</arrivalTime>
+		</flight>
+
+		<flight id="6033">
+			<flightID>6033</flightID>
+			<origin>CWB</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 11:30</departureTime>
+			<arrivalTime>30/05/2017 12:30</arrivalTime>
+		</flight>
+
+		<flight id="6034">
+			<flightID>6034</flightID>
+			<origin>GRU</origin>
+			<destination>CWB</destination>
+			<departureTime>30/05/2017 18:00</departureTime>
+			<arrivalTime>30/05/2017 19:00</arrivalTime>
+		</flight>
+
+		<flight id="6035">
+			<flightID>6035</flightID>
+			<origin>CWB</origin>
+			<destination>FLN</destination>
+			<departureTime>30/05/2017 20:00</departureTime>
+			<arrivalTime>30/05/2017 21:00</arrivalTime>
+		</flight>
+
+		<flight id="6036">
+			<flightID>6036</flightID>
+			<origin>FLN</origin>
+			<destination>POA</destination>
+			<departureTime>30/05/2017 22:00</departureTime>
+			<arrivalTime>30/05/2017 23:00</arrivalTime>
+		</flight>
+
+	</route>
+
+	<route>
+		<flight id="7037">
+			<flightID>7037</flightID>
+			<origin>GIG</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 07:30</departureTime>
+			<arrivalTime>30/05/2017 08:30</arrivalTime>
+		</flight>
+
+		<flight id="7038">
+			<flightID>7038</flightID>
+			<origin>GRU</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 09:30</departureTime>
+			<arrivalTime>30/05/2017 10:30</arrivalTime>
+		</flight>
+
+		<flight id="7039">
+			<flightID>7039</flightID>
+			<origin>GIG</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 11:30</departureTime>
+			<arrivalTime>30/05/2017 12:30</arrivalTime>
+		</flight>
+
+		<flight id="7040">
+			<flightID>7040</flightID>
+			<origin>GRU</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 14:00</departureTime>
+			<arrivalTime>30/05/2017 15:00</arrivalTime>
+		</flight>
+
+		<flight id="7041">
+			<flightID>7041</flightID>
+			<origin>GIG</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 16:30</departureTime>
+			<arrivalTime>30/05/2017 17:30</arrivalTime>
+		</flight>
+
+		<flight id="7042">
+			<flightID>7042</flightID>
+			<origin>GRU</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 18:30</departureTime>
+			<arrivalTime>30/05/2017 19:30</arrivalTime>
+		</flight>
+
+		<flight id="7043">
+			<flightID>7043</flightID>
+			<origin>GIG</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 20:30</departureTime>
+			<arrivalTime>30/05/2017 21:30</arrivalTime>
+		</flight>
+
+		<flight id="7044">
+			<flightID>7044</flightID>
+			<origin>GRU</origin>
+			<destination>GIG</destination>
+			<departureTime>30/05/2017 22:30</departureTime>
+			<arrivalTime>30/05/2017 23:30</arrivalTime>
+		</flight>
+
+	</route>
+
+	<route>
+		<flight id="8045">
+			<flightID>8045</flightID>
+			<origin>POA</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 07:00</departureTime>
+			<arrivalTime>30/05/2017 08:30</arrivalTime>
+		</flight>
+
+		<flight id="8046">
+			<flightID>8046</flightID>
+			<origin>GRU</origin>
+			<destination>REC</destination>
+			<departureTime>30/05/2017 09:30</departureTime>
+			<arrivalTime>30/05/2017 11:30</arrivalTime>
+		</flight>
+
+		<flight id="8047">
+			<flightID>8047</flightID>
+			<origin>REC</origin>
+			<destination>MAO</destination>
+			<departureTime>30/05/2017 12:30</departureTime>
+			<arrivalTime>30/05/2017 14:30</arrivalTime>
+		</flight>
+
+		<flight id="8048">
+			<flightID>8048</flightID>
+			<origin>MAO</origin>
+			<destination>REC</destination>
+			<departureTime>30/05/2017 15:30</departureTime>
+			<arrivalTime>30/05/2017 17:30</arrivalTime>
+		</flight>
+
+		<flight id="8049">
+			<flightID>8049</flightID>
+			<origin>REC</origin>
+			<destination>GRU</destination>
+			<departureTime>30/05/2017 18:30</departureTime>
+			<arrivalTime>30/05/2017 20:30</arrivalTime>
+		</flight>
+
+		<flight id="8050">
+			<flightID>8050</flightID>
+			<origin>GRU</origin>
+			<destination>POA</destination>
+			<departureTime>30/05/2017 21:30</departureTime>
+			<arrivalTime>30/05/2017 23:00</arrivalTime>
+		</flight>
+
+	</route>
+
+</flights>

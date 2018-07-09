@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+
+<flights>
+	
+	<flight id="KL1880">
+		<flightID>KL1880</flightID>
+		<origin>NUE</origin>
+		<destination>AMS</destination>
+		<departureTime>04:00</departureTime>
+		<arrivalTime>05:20</arrivalTime>
+	</flight>
+	
+	<flight id="KL1866">
+		<flightID>KL1866</flightID>
+		<origin>STR</origin>
+		<destination>AMS</destination>
+		<departureTime>04:00</departureTime>
+		<arrivalTime>05:20</arrivalTime>
+	</flight>
+	
+	<flight id="KL1582">
+		<flightID>KL1582</flightID>
+		<origin>BLQ</origin>
+		<destination>AMS</destination>
+		<departureTime>04:00</departureTime>
+		<arrivalTime>06:00</arrivalTime>
+	</flight>
+
+	<flight id="KL1300">
+		<flightID>KL1300</flightID>
+		<origin>TLS</origin>
+		<destination>AMS</destination>
+		<departureTime>04:10</departureTime>
+		<arrivalTime>06:05</arrivalTime>
+	</flight>
+
+	<flight id="KL1314">
+		<flightID>KL1314</flightID>
+		<origin>BOD</origin>
+		<destination>AMS</destination>
+		<departureTime>04:10</departureTime>
+		<arrivalTime>05:50</arrivalTime>
+	</flight>	
+	
+	<flight id="KL1178">
+		<flightID>KL1178</flightID>
+		<origin>LPI</origin>
+		<destination>AMS</destination>
+		<departureTime>04:10</departureTime>
+		<arrivalTime>05:55</arrivalTime>
+	</flight>	
+	
+	<flight id="KL1212">
+		<flightID>KL1212</flightID>
+		<origin>TRF</origin>
+		<destination>AMS</destination>
+		<departureTime>04:15</departureTime>
+		<arrivalTime>05:50</arrivalTime>
+	</flight>
+
+	<flight id="KL1172">
+		<flightID>KL1172</flightID>
+		<origin>TRD</origin>
+		<destination>AMS</destination>
+		<departureTime>04:15</departureTime>
+		<arrivalTime>06:30</arrivalTime>
+	</flight>	
+
+	<flight id="KL1332">
+		<flightID>KL1332</flightID>
+		<origin>AAL</origin>
+		<destination>AMS</destination>
+		<departureTime>04:20</departureTime>
+		<arrivalTime>05:40</arrivalTime>
+	</flight>
+	
+	<flight id="KL1152">
+		<flightID>KL1152</flightID>
+		<origin>GOT</origin>
+		<destination>AMS</destination>
+		<departureTime>04:20</departureTime>
+		<arrivalTime>05:50</arrivalTime>
+	</flight>
+	
+	<flight id="KL1260">
+		<flightID>KL1260</flightID>
+		<origin>NCE</origin>
+		<destination>AMS</destination>
+		<departureTime>04:25</departureTime>
+		<arrivalTime>06:25</arrivalTime>
+	</flight>
+	
+	<flight id="KL1140">
+		<flightID>KL1140</flightID>
+		<origin>OSL</origin>
+		<destination>AMS</destination>
+		<departureTime>04:30</departureTime>
+		<arrivalTime>06:20</arrivalTime>
+	</flight>
+	
+	<flight id="KL1322">
+		<flightID>KL1322</flightID>
+		<origin>AES</origin>
+		<destination>AMS</destination>
+		<departureTime>04:30</departureTime>
+		<arrivalTime>06:45</arrivalTime>
+	</flight>
+	
+	<flight id="KL1554">
+		<flightID>KL1554</flightID>
+		<origin>TRN</origin>
+		<destination>AMS</destination>
+		<departureTime>04:35</departureTime>
+		<arrivalTime>06:35</arrivalTime>
+	</flight>
+	
+	<flight id="KL1992">
+		<flightID>KL1992</flightID>
+		<origin>KRK</origin>
+		<destination>AMS</destination>
+		<departureTime>04:40</departureTime>
+		<arrivalTime>06:40</arrivalTime>
+	</flight>
+	
+	<flight id="KL1351">
+		<flightID>KL1351</flightID>
+		<origin>AMS</origin>
+		<destination>PRG</destination>
+		<departureTime>04:45</departureTime>
+		<arrivalTime>06:15</arrivalTime>
+	</flight>
+	
+	<flight id="KL1684">
+		<flightID>KL1684</flightID>
+		<origin>BIO</origin>
+		<destination>AMS</destination>
+		<departureTime>04:45</departureTime>
+		<arrivalTime>07:00</arrivalTime>
+	</flight>
+	
+	<flight id="KL1073">
+		<flightID>KL1073</flightID>
+		<origin>AMS</origin>
+		<destination>MAN</destination>
+		<departureTime>04:50</departureTime>
+		<arrivalTime>06:10</arrivalTime>
+	</flight>
+	
+	<flight id="KL1762">
+		<flightID>KL1762</flightID>
+		<origin>FRA</origin>
+		<destination>AMS</destination>
+		<departureTime>05:00</departureTime>
+		<arrivalTime>06:10</arrivalTime>
+	</flight>
+	
+	<flight id="KL1925">
+		<flightID>KL1925</flightID>
+		<origin>AMS</origin>
+		<destination>GVA</destination>
+		<departureTime>05:00</departureTime>
+		<arrivalTime>06:20</arrivalTime>
+	</flight>
+	
+	<flight id="KL1153">
+		<flightID>KL1153</flightID>
+		<origin>AMS</origin>
+		<destination>GOT</destination>
+		<departureTime>05:45</departureTime>
+		<arrivalTime>07:15</arrivalTime>
+	</flight>
+	
+	<flight id="KL1413">
+		<flightID>KL1413</flightID>
+		<origin>AMS</origin>
+		<destination>LYS</destination>
+		<departureTime>05:55</departureTime>
+		<arrivalTime>07:30</arrivalTime>
+	</flight>
+	
+	<flight id="KL1867">
+		<flightID>KL1867</flightID>
+		<origin>AMS</origin>
+		<destination>STR</destination>
+		<departureTime>05:55</departureTime>
+		<arrivalTime>07:10</arrivalTime>
+	</flight>
+	
+	<flight id="KL1441">
+		<flightID>KL1441</flightID>
+		<origin>AMS</origin>
+		<destination>ABZ</destination>
+		<departureTime>06:15</departureTime>
+		<arrivalTime>07:45</arrivalTime>
+	</flight>
+	
+	<flight id="KL1341">
+		<flightID>KL1341</flightID>
+		<origin>AMS</origin>
+		<destination>BLL</destination>
+		<departureTime>06:25</departureTime>
+		<arrivalTime>07:30</arrivalTime>
+	</flight>
+	
+	<flight id="KL1049">
+		<flightID>KL1049</flightID>
+		<origin>AMS</origin>
+		<destination>BRS</destination>
+		<departureTime>06:30</departureTime>
+		<arrivalTime>07:45</arrivalTime>
+	</flight>
+	
+	<flight id="KL1883">
+		<flightID>KL1883</flightID>
+		<origin>AMS</origin>
+		<destination>NUE</destination>
+		<departureTime>06:30</departureTime>
+		<arrivalTime>07:45</arrivalTime>
+	</flight>
+	
+	<flight id="KL1185">
+		<flightID>KL1185</flightID>
+		<origin>AMS</origin>
+		<destination>BGO</destination>
+		<departureTime>06:30</departureTime>
+		<arrivalTime>08:10</arrivalTime>
+	</flight>
+	
+	<flight id="KL1301">
+		<flightID>KL1301</flightID>
+		<origin>AMS</origin>
+		<destination>TLS</destination>
+		<departureTime>06:35</departureTime>
+		<arrivalTime>08:25</arrivalTime>
+	</flight>
+	
+	<flight id="KL1639">
+		<flightID>KL1639</flightID>
+		<origin>AMS</origin>
+		<destination>FLR</destination>
+		<departureTime>06:40</departureTime>
+		<arrivalTime>08:40</arrivalTime>
+	</flight>
+
+</flights>

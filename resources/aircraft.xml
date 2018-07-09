@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+
+<aircrafts>
+	<aircraft id="A300">
+		<name>Airbus A300</name>
+	</aircraft>
+	
+	<aircraft id="A310">
+		<name>Airbus A310</name>
+	</aircraft>
+	
+	<aircraft id="A318">
+		<name>Airbus A318</name>
+	</aircraft>
+	
+	<aircraft id="A319">
+		<name>Airbus A319</name>
+	</aircraft>
+	
+	<aircraft id="A320">
+		<name>Airbus A320</name>
+	</aircraft>
+	
+	<aircraft id="A321">
+		<name>Airbus A321</name>
+	</aircraft>
+	
+	<aircraft id="A332">
+		<name>Airbus A330</name>
+	</aircraft>
+	
+	<aircraft id="A343">
+		<name>Airbus A340-300 (Feelthere)</name>
+	</aircraft>
+	
+	<aircraft id="A381">
+		<name>Airbus A380-100</name>
+	</aircraft>
+	
+	<aircraft id="AT42">
+		<name>ATR 42 Twin Turboprop</name>
+	</aircraft>
+	
+	<aircraft id="AT72">
+		<name>ATR 72 Twin Turboprop</name>
+	</aircraft>
+	
+	<aircraft id="JS41">
+		<name>BAe Jetstream 41 Turboprop</name>
+	</aircraft>
+
+	<aircraft id="B462">
+		<name>BAe 146 (RJ85)</name>
+	</aircraft>
+	
+	<aircraft id="B190">
+		<name>Beechcraft 1900</name>
+	</aircraft>
+	
+	<aircraft id="B350">
+		<name>Beechcraft KingAir 350</name>
+	</aircraft>
+	
+	<aircraft id="B707">
+		<name>Boeing 707-320B</name>
+	</aircraft>
+	
+	<aircraft id="B712">
+		<name>Boeing 717-200</name>
+	</aircraft>
+	
+	<aircraft id="B721">
+		<name>Boeing 727-100</name>
+	</aircraft>
+	
+	<aircraft id="B722">
+		<name>Boeing 727-200</name>
+	</aircraft>
+	
+	<aircraft id="B732">
+		<name>Boeing 737-200</name>
+	</aircraft>
+	
+	<aircraft id="B733">
+		<name>Boeing 737-300 (wilco)</name>
+	</aircraft>
+	
+	<aircraft id="B734">
+		<name>Boeing 737-400</name>
+	</aircraft>
+	
+	<aircraft id="B735">
+		<name>Boeing 737-500</name>
+	</aircraft>
+	
+	<aircraft id="B736">
+		<name>Boeing 737-600</name>
+	</aircraft>
+
+	<aircraft id="B737">
+		<name>Boeing 737-700</name>
+	</aircraft>
+	
+	<aircraft id="B738">
+		<name>Boeing 737-800</name>
+	</aircraft>
+	
+	<aircraft id="B738_PMDG">
+		<name>Boeing 737-800 (iFly/PMDG)</name>
+	</aircraft>
+	
+	<aircraft id="B739">
+		<name>Boeing 737-900</name>
+	</aircraft>
+	
+	<aircraft id="B744">
+		<name>Boeing 747-400</name>
+	</aircraft>
+	
+	<aircraft id="B744_PMDG">
+		<name>Boeing 747 (PMDG)</name>
+	</aircraft>
+	
+	<aircraft id="B748">
+		<name>Boeing 747-800</name>
+	</aircraft>
+
+	<aircraft id="B752">
+		<name>Boeing 757-200 (Generic)</name>
+	</aircraft>
+	
+	<aircraft id="B753">
+		<name>Boeing 757-300 (Generic)</name>
+	</aircraft>
+
+	<aircraft id="B752_QW">
+		<name>Boeing 757-200 (QualityWings)</name>
+	</aircraft>
+	
+	<aircraft id="B752_PSS">
+		<name>Boeing 757-200 (PSS)</name>
+	</aircraft>
+	
+	<aircraft id="B753_PSS">
+		<name>Boeing 757-300 (PSS)</name>
+	</aircraft>
+	
+	<aircraft id="B763">
+		<name>Boeing 767-300</name>
+	</aircraft>
+	
+	<aircraft id="B772">
+		<name>Boeing 777-200</name>
+	</aircraft>
+	
+	<aircraft id="B773">
+		<name>Boeing 777-300</name>
+	</aircraft>
+	
+	<aircraft id="B788">
+		<name>Boeing 787-800</name>
+	</aircraft>
+
+	<aircraft id="C17">
+		<name>Boeing C-17 Globemaster</name>
+	</aircraft>
+	
+	<aircraft id="B788">
+		<name>Boeing Dreamliner 787-800</name>
+	</aircraft>
+	
+	<aircraft id="DH8C">
+		<name>Bombardier Dash 8 Q300</name>
+	</aircraft>
+	
+	<aircraft id="DH8D">
+		<name>Bombardier Dash 8 Q400</name>
+	</aircraft>
+
+	<aircraft id="C130">
+		<name>C-130 Hercules</name>
+	</aircraft>
+	
+	<aircraft id="CRJ2">
+		<name>Canadair CRJ-200</name>
+	</aircraft>
+	
+	<aircraft id="CRJ7">
+		<name>Canadair CRJ-700</name>
+	</aircraft>
+	
+	<aircraft id="CRJ9">
+		<name>Canadair CRJ-900</name>
+	</aircraft>
+	
+	<aircraft id="C550">
+		<name>Cessna Citation II</name>
+	</aircraft>
+	
+	<aircraft id="C750">
+		<name>Cessna Citation X</name>
+	</aircraft>
+	
+	<aircraft id="C208">
+		<name>Cessna Grand Caravan</name>
+	</aircraft>
+	
+	<aircraft id="CV24">
+		<name>Convair 240</name>
+	</aircraft>
+	
+	<aircraft id="CV58">
+		<name>Convair 580</name>
+	</aircraft>
+
+	<aircraft id="DHC6">
+		<name>De Havilland DHC-6</name>
+	</aircraft>
+	
+	<aircraft id="D328">
+		<name>Dornier 328 Turboprop</name>
+	</aircraft>
+	
+	<aircraft id="DC3">
+		<name>Douglas DC-3</name>
+	</aircraft>
+	
+	<aircraft id="DC93">
+		<name>Douglas DC9-30</name>
+	</aircraft>
+	
+	<aircraft id="C47">
+		<name>Douglas C-47 Skytrain</name>
+	</aircraft>
+	
+	<aircraft id="C47">
+		<name>Douglas C-53 Skytrooper</name>
+	</aircraft>
+	
+	<aircraft id="DC10">
+		<name>Douglas DC-10-30</name>
+	</aircraft>
+	
+	<aircraft id="E120">
+		<name>Embraer Brasilia E120</name>
+	</aircraft>
+	
+	<aircraft id="E135">
+		<name>Embraer ERJ-135</name>
+	</aircraft>
+	
+	<aircraft id="E145">
+		<name>Embraer ERJ-145</name>
+	</aircraft>
+	
+	<aircraft id="E170">
+		<name>Embraer 170</name>
+	</aircraft>
+	
+	<aircraft id="E190">
+		<name>Embraer 190</name>
+	</aircraft>
+
+	<aircraft id="F50">
+		<name>Fokker 50</name>
+	</aircraft>
+	
+	<aircraft id="F70">
+		<name>Fokker 70</name>
+	</aircraft>
+	
+	<aircraft id="G500">
+		<name>Gulfstream 500</name>
+	</aircraft>
+	
+	<aircraft id="QK10">
+		<name>Quest Kodiak 100</name>
+	</aircraft>
+	
+	<aircraft id="L101">
+		<name>Lockheed Constellation</name>
+	</aircraft>
+	
+	<aircraft id="L15">
+		<name>Lockheed L1011-500 Tristar</name>
+	</aircraft>
+	
+	<aircraft id="MD11">
+		<name>McDonnell-Douglas MD-11</name>
+	</aircraft>
+	
+	<aircraft id="MD83">
+		<name>McDonnell-Douglas MD80</name>
+	</aircraft>
+	
+	<aircraft id="MD93">
+		<name>McDonnell-Douglas MD90</name>
+	</aircraft>
+	
+	<aircraft id="PC12">
+		<name>Pilatus PC-12 NG</name>
+	</aircraft>
+	
+	<aircraft id="SF34">
+		<name>Saab 340B</name>
+	</aircraft>
+	
+</aircrafts>

@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+
+<aerodromes>
+
+	<aerodrome id="ABZ">
+		<name>Aberdeen Dyce Airport (ABZ)</name>
+		<location>Aberdeen, United Kingdom (GB)</location>
+		<iata>ABZ</iata>
+		<icao>EGPD</icao>
+		<latitude>57.2019005</latitude>
+		<longitude>-2.1977799</longitude>
+	</aerodrome>
+	
+	<aerodrome id="AES">
+		<name>Ålesund Airport (AES)</name>
+		<location>Ålesund, Norway (NO)</location>
+		<iata>AES</iata>
+		<icao>ENAL</icao>
+		<latitude>62.5625</latitude>
+		<longitude>6.1197</longitude>
+	</aerodrome>
+	
+	<aerodrome id="ALL">
+		<name>Villanova D'Albenga International Airport (ALL)</name>
+		<location>Albenga (SV), Italy (IT)</location>
+		<iata>ALL</iata>
+		<icao>LIMG</icao>
+		<latitude>44.0505981</latitude>
+		<longitude>8.12743</longitude>
+	</aerodrome>
+	
+	<aerodrome id="AMS">
+		<name>Amsterdam Schiphol Airport (AMS)</name>
+		<location>Amsterdam, Netherlands (NL)</location>
+		<iata>AMS</iata>
+		<icao>EHAM</icao>
+		<latitude>52.3086014</latitude>
+		<longitude>4.7638898</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BGO">
+		<name>Bergen, Flesland Airport (BGO)</name>
+		<location>Bergen, Norway (NO)</location>
+		<iata>BGO</iata>
+		<icao>ENBR</icao>
+		<latitude>60.2933998</latitude>
+		<longitude>5.2181401</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BHX">
+		<name>Birmingham International Airport (BHX)</name>
+		<location>Birmingham, United Kingdom (GB)</location>
+		<iata>BHX</iata>
+		<icao>EGBB</icao>
+		<latitude>52.4538994</latitude>
+		<longitude>-1.7480299</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BIO">
+		<name>Bilbao Airport (BIO)</name>
+		<location>Bilbao, Spain (ES)</location>
+		<iata>BIO</iata>
+		<icao>LEBB</icao>
+		<latitude>43.3011017</latitude>
+		<longitude>-2.91061</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BLL">
+		<name>Billund Airport (BLL)</name>
+		<location>Billund, Denmark (DK)</location>
+		<iata>BLL</iata>
+		<icao>EKBI</icao>
+		<latitude>55.7402992</latitude>
+		<longitude>9.1517801</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BLQ">
+		<name>Bologna / Borgo Panigale Airport (BLQ)</name>
+		<location>Bologna, Italy (IT)</location>
+		<iata>BLQ</iata>
+		<icao>LIPE</icao>
+		<latitude>44.5354004</latitude>
+		<longitude>11.2887001</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BOD">
+		<name>Bordeaux-Mérignac (BA 106) Airport (BOD)</name>
+		<location>Bordeaux/Mérignac, France (FR)</location>
+		<iata>BOD</iata>
+		<icao>LFBD</icao>
+		<latitude>44.8283005</latitude>
+		<longitude>-0.715556</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BRE">
+		<name>Bremen Airport (BRE)</name>
+		<location>Bremen, Germany (DE)</location>
+		<iata>BRE</iata>
+		<icao>EDDW</icao>
+		<latitude>53.0475006</latitude>
+		<longitude>8.7866697</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BRS">
+		<name>Bristol International Airport (BRS)</name>
+		<location>Bristol, United Kingdom (GB)</location>
+		<iata>BRS</iata>
+		<icao>EGGD</icao>
+		<latitude>51.3827019</latitude>
+		<longitude>-2.71909</longitude>
+	</aerodrome>
+	
+	<aerodrome id="BRU">
+		<name>Brussels Airport (BRU)</name>
+		<location>Brussels, Belgium (BE)</location>
+		<iata>BRU</iata>
+		<icao>EBBR</icao>
+		<latitude>50.9014015</latitude>
+		<longitude>4.4844398</longitude>
+	</aerodrome>
+	
+	<aerodrome id="CWL">
+		<name>Cardiff International Airport (CWL)</name>
+		<location>Cardiff, United Kingdom (GB)</location>
+		<iata>CWL</iata>
+		<icao>EGFF</icao>
+		<latitude>51.3967018</latitude>
+		<longitude>-3.3433299</longitude>
+	</aerodrome>
+	
+	<aerodrome id="DUS">
+		<name>Düsseldorf International Airport (DUS)</name>
+		<location>Düsseldorf, Germany (DE)</location>
+		<iata>DUS</iata>
+		<icao>EDDL</icao>
+		<latitude>51.2895012</latitude>
+		<longitude>6.7667799</longitude>
+	</aerodrome>
+	
+	<aerodrome id="FLR">
+		<name>Florence (Firenze / Peretola) Airport (FLR)</name>
+		<location>Firenze, Italy (IT)</location>
+		<iata>FLR</iata>
+		<icao>LIRQ</icao>
+		<latitude>43.8100014</latitude>
+		<longitude>11.2051001</longitude>
+	</aerodrome>
+	
+	<aerodrome id="FRA">
+		<name>Frankfurt am Main International Airport (FRA)</name>
+		<location>Frankfurt-am-Main, Germany (DE)</location>
+		<iata>FRA</iata>
+		<icao>EDDF</icao>
+		<latitude>50.0264015</latitude>
+		<longitude>8.5431299</longitude>
+	</aerodrome>
+	
+	<aerodrome id="GOT">
+		<name>Gothenburg-Landvetter Airport (GOT)</name>
+		<location>Gothenburg, Sweden (SE)</location>
+		<iata>GOT</iata>
+		<icao>ESGG</icao>
+		<latitude>57.6627998</latitude>
+		<longitude>12.2798004</longitude>
+	</aerodrome>
+	
+	<aerodrome id="GVA">
+		<name>Geneva Cointrin International Airport (GVA)</name>
+		<location>Geneva, Switzerland (CH)</location>
+		<iata>GVA</iata>
+		<icao>LSGG</icao>
+		<latitude>46.2380981</latitude>
+		<longitude>6.1089501</longitude>
+	</aerodrome>
+	
+	<aerodrome id="HAM">
+		<name>Hamburg Airport (HAM)</name>
+		<location>Hamburg, Germany (DE)</location>
+		<iata>HAM</iata>
+		<icao>EDDH</icao>
+		<latitude>53.6304016</latitude>
+		<longitude>9.9882298</longitude>
+	</aerodrome>
+	
+	<aerodrome id="KRK">
+		<name>John Paul II International Kraków-Balice Airport (KRK)</name>
+		<location>Kraków, Poland (PL)</location>
+		<iata>KRK</iata>
+		<icao>EPKK</icao>
+		<latitude>50.0777016</latitude>
+		<longitude>19.7847996</longitude>
+	</aerodrome>
+	
+	<aerodrome id="LPI">
+		<name>Linköping SAAB Airport (LPI)</name>
+		<location>Linköping, Sweden (SE)</location>
+		<iata>LPI</iata>
+		<icao>ESSL</icao>
+		<latitude>58.4062004</latitude>
+		<longitude>15.6805</longitude>
+	</aerodrome>
+	
+	<aerodrome id="LUX">
+		<name>Luxembourg-Findel International Airport (LUX)</name>
+		<location>Luxembourg, Luxembourg (LU)</location>
+		<iata>LUX</iata>
+		<icao>ELLX</icao>
+		<latitude>49.6265984</latitude>
+		<longitude>6.2115202</longitude>
+	</aerodrome>
+	
+	<aerodrome id="LYS">
+		<name>Lyon Saint-Exupéry Airport (LYS)</name>
+		<location>Lyon, France (FR)</location>
+		<iata>LYS</iata>
+		<icao>LFLL</icao>
+		<latitude>45.7263985</latitude>
+		<longitude>5.0908298</longitude>
+	</aerodrome>
+	
+	<aerodrome id="MAN">
+		<name>Manchester Airport (MAN)</name>
+		<location>Manchester, United Kingdom (GB)</location>
+		<iata>MAN</iata>
+		<icao>EGCC</icao>
+		<latitude>53.3536987</latitude>
+		<longitude>-2.27495</longitude>
+	</aerodrome>
+	
+	<aerodrome id="NCE">
+		<name>Nice-Côte d'Azur Airport (NCE)</name>
+		<location>Nice, France (FR)</location>
+		<iata>NCE</iata>
+		<icao>LFMN</icao>
+		<latitude>43.6584015</latitude>
+		<longitude>7.2158699</longitude>
+	</aerodrome>
+	
+	<aerodrome id="NCL">
+		<name>Newcastle Airport (NCL)</name>
+		<location>Newcastle, United Kingdom (GB)</location>
+		<iata>NCL</iata>
+		<icao>EGNT</icao>
+		<latitude>55.0374985</latitude>
+		<longitude>-1.6916699</longitude>
+	</aerodrome>
+	
+	<aerodrome id="NUE">
+		<name>Nuremberg Airport (NUE)</name>
+		<location>Nuremberg, Germany (DE)</location>
+		<iata>NUE</iata>
+		<icao>EDDN</icao>
+		<latitude>49.4986992</latitude>
+		<longitude>11.0669003</longitude>
+	</aerodrome>
+	
+	<aerodrome id="OSL">
+		<name>Oslo Gardermoen Airport (OSL)</name>
+		<location>Oslo, Norway (NO)</location>
+		<iata>OSL</iata>
+		<icao>ENGM</icao>
+		<latitude>60.1939011</latitude>
+		<longitude>11.1004</longitude>
+	</aerodrome>
+	
+	<aerodrome id="PLR">
+		<name>St Clair County Airport (PLR)</name>
+		<location>Pell City, United States (US)</location>
+		<iata>PLR</iata>
+		<icao></icao>
+		<latitude>33.5833333</latitude>
+		<longitude>-86.2833333</longitude>
+	</aerodrome>
+	
+	<aerodrome id="PRG">
+		<name>Ruzyně International Airport (PRG)</name>
+		<location>Prague, Czechia (CZ)</location>
+		<iata>PRG</iata>
+		<icao>LKPR</icao>
+		<latitude>50.1007996</latitude>
+		<longitude>14.2600002</longitude>
+	</aerodrome>
+	
+	<aerodrome id="STR">
+		<name>Stuttgart Airport (STR)</name>
+		<location>Stuttgart, Germany (DE)</location>
+		<iata>STR</iata>
+		<icao>EDDS</icao>
+		<latitude>48.6898994</latitude>
+		<longitude>9.2219601</longitude>
+	</aerodrome>
+	
+	<aerodrome id="TLS">
+		<name>Toulouse-Blagnac Airport (TLS)</name>
+		<location>Toulouse/Blagnac, France (FR)</location>
+		<iata>TLS</iata>
+		<icao>LFBO</icao>
+		<latitude>43.6291008</latitude>
+		<longitude>1.36382</longitude>
+	</aerodrome>
+	
+	<aerodrome id="TRD">
+		<name>Trondheim, Værnes Airport (TRD)</name>
+		<location>Trondheim, Norway (NO)</location>
+		<iata>TRD</iata>
+		<icao>ENVA</icao>
+		<latitude>63.4578018</latitude>
+		<longitude>10.9239998</longitude>
+	</aerodrome>
+	
+	<aerodrome id="TRF">
+		<name>Sandefjord, Torp Airport (TRF)</name>
+		<location>Torp, Norway (NO)</location>
+		<iata>TRF</iata>
+		<icao>ENTO</icao>
+		<latitude>59.1866989</latitude>
+		<longitude>10.2586002</longitude>
+	</aerodrome>
+	
+	<aerodrome id="TRN">
+		<name>Torino / Caselle International Airport (TRN)</name>
+		<location>Torino, Italy (IT)</location>
+		<iata>TRN</iata>
+		<icao>LIMF</icao>
+		<latitude>45.2008018</latitude>
+		<longitude>7.6496301</longitude>
+	</aerodrome>
+	
+	<aerodrome id="TRO">
+		<name>Taree Airport (TRO)</name>
+		<location>Taree, Australia (AU)</location>
+		<iata>TRO</iata>
+		<icao>YTRE</icao>
+		<latitude>-31.8885994</latitude>
+		<longitude>152.5140076</longitude>
+	</aerodrome>
+
+</aerodromes>

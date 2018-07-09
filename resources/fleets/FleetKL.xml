@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+
+<fleet type="E170">
+
+	<aircraft id="EZA">
+		<label></label>
+		<currentLocation>GOT</currentLocation>
+		<efficiency>1</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZB">
+		<label>E175</label>
+		<currentLocation>NUE</currentLocation>
+		<efficiency>1.005</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZC">
+		<label></label>
+		<currentLocation>FRA</currentLocation>
+		<efficiency>1.010</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZD">
+		<label></label>
+		<currentLocation>AMS</currentLocation>
+		<efficiency>1.015</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZE">
+		<label></label>
+		<currentLocation>AMS</currentLocation>
+		<efficiency>1.020</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZF">
+		<label></label>
+		<currentLocation>KRK</currentLocation>
+		<efficiency>1.025</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZG">
+		<label></label>
+		<currentLocation>TLS</currentLocation>
+		<efficiency>1.030</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZI">
+		<label>E175</label>
+		<currentLocation>STR</currentLocation>
+		<efficiency>1.035</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZK">
+		<label></label>
+		<currentLocation>OSL</currentLocation>
+		<efficiency>1.040</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZL">
+		<label></label>
+		<currentLocation>TRN</currentLocation>
+		<efficiency>1.045</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZM">
+		<label></label>
+		<currentLocation>TRF</currentLocation>
+		<efficiency>1.05</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZN">
+		<label></label>
+		<currentLocation>NCE</currentLocation>
+		<efficiency>1</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZO">
+		<label></label>
+		<currentLocation>AMS</currentLocation>
+		<efficiency>1.005</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZP">
+		<label></label>
+		<currentLocation>LPI</currentLocation>
+		<efficiency>1.01</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZR">
+		<label></label>
+		<currentLocation>BIO</currentLocation>
+		<efficiency>1.015</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZS">
+		<label></label>
+		<currentLocation>TRO</currentLocation>
+		<efficiency>1.020</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZT">
+		<label></label>
+		<currentLocation>AMS</currentLocation>
+		<efficiency>1.025</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZV">
+		<label></label>
+		<currentLocation>AMS</currentLocation>
+		<efficiency>1.030</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZW">
+		<label></label>
+		<currentLocation>AES</currentLocation>
+		<efficiency>1.035</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZX">
+		<label></label>
+		<currentLocation>BOD</currentLocation>
+		<efficiency>1.040</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZY">
+		<label></label>
+		<currentLocation>BLQ</currentLocation>
+		<efficiency>1.045</efficiency>
+	</aircraft>
+	
+	<aircraft id="EZZ">
+		<label></label>
+		<currentLocation>ALL</currentLocation>
+		<efficiency>1.05</efficiency>
+	</aircraft>
+	
+</fleet>
