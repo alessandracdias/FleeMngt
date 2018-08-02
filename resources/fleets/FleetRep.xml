@@ -1,255 +1,59 @@
 <?xml version="1.0"?>
 <fleet type="E170">
 
-	<aircraft id="130">
-		<label></label>
-		<currentLocation>BNA</currentLocation>
-		<efficiency>1.025</efficiency>
-	</aircraft>
-
-	<aircraft id="131">
-		<label></label>
-		<currentLocation>DCA</currentLocation>
-		<efficiency>1.03</efficiency>
-	</aircraft>
-
-	<aircraft id="110">
-		<label></label>
-		<currentLocation>MIA</currentLocation>
-		<efficiency>1.02</efficiency>
-	</aircraft>
-
-	<aircraft id="132">
-		<label></label>
-		<currentLocation>MTY</currentLocation>
-		<efficiency>1.045</efficiency>
-	</aircraft>
-
-	<aircraft id="111">
-		<label></label>
-		<currentLocation>SDF</currentLocation>
-		<efficiency>1.04</efficiency>
-	</aircraft>
-
-	<aircraft id="133">
-		<label></label>
-		<currentLocation>ORD</currentLocation>
-		<efficiency>1.015</efficiency>
-	</aircraft>
-
-	<aircraft id="112">
-		<label></label>
-		<currentLocation>ORD</currentLocation>
-		<efficiency>1.015</efficiency>
-	</aircraft>
-
-	<aircraft id="134">
-		<label></label>
-		<currentLocation>JAX</currentLocation>
-		<efficiency>1.015</efficiency>
-	</aircraft>
-
-	<aircraft id="113">
-		<label></label>
-		<currentLocation>IAH</currentLocation>
-		<efficiency>1.02</efficiency>
-	</aircraft>
-
-	<aircraft id="135">
-		<label></label>
-		<currentLocation>MEM</currentLocation>
-		<efficiency>1.04</efficiency>
-	</aircraft>
-
-	<aircraft id="114">
-		<label></label>
-		<currentLocation>BNA</currentLocation>
-		<efficiency>1.005</efficiency>
-	</aircraft>
-
-	<aircraft id="136">
-		<label></label>
-		<currentLocation>MEM</currentLocation>
-		<efficiency>1.035</efficiency>
-	</aircraft>
-
-	<aircraft id="115">
-		<label></label>
-		<currentLocation>MIA</currentLocation>
-		<efficiency>1.03</efficiency>
-	</aircraft>
-
-	<aircraft id="137">
-		<label></label>
-		<currentLocation>IND</currentLocation>
-		<efficiency>1.025</efficiency>
-	</aircraft>
-
-	<aircraft id="116">
-		<label></label>
-		<currentLocation>PIT</currentLocation>
-		<efficiency>1.05</efficiency>
-	</aircraft>
-
-	<aircraft id="138">
-		<label></label>
-		<currentLocation>NAS</currentLocation>
-		<efficiency>1.01</efficiency>
-	</aircraft>
-
-	<aircraft id="117">
-		<label></label>
-		<currentLocation>ORD</currentLocation>
-		<efficiency>1.02</efficiency>
-	</aircraft>
-
-	<aircraft id="139">
-		<label></label>
-		<currentLocation>MIA</currentLocation>
-		<efficiency>1.025</efficiency>
-	</aircraft>
-
-	<aircraft id="118">
-		<label></label>
-		<currentLocation>MEM</currentLocation>
-		<efficiency>1.01</efficiency>
-	</aircraft>
-
-	<aircraft id="119">
-		<label></label>
-		<currentLocation>GSO</currentLocation>
-		<efficiency>1.0</efficiency>
-	</aircraft>
-
-	<aircraft id="140">
-		<label></label>
-		<currentLocation>DCA</currentLocation>
-		<efficiency>1.005</efficiency>
-	</aircraft>
-
-	<aircraft id="141">
-		<label></label>
-		<currentLocation>EYW</currentLocation>
-		<efficiency>1.02</efficiency>
-	</aircraft>
-
-	<aircraft id="120">
-		<label></label>
-		<currentLocation>IND</currentLocation>
-		<efficiency>1.05</efficiency>
-	</aircraft>
-
-	<aircraft id="142">
-		<label></label>
-		<currentLocation>CMH</currentLocation>
-		<efficiency>1.045</efficiency>
-	</aircraft>
-
-	<aircraft id="121">
-		<label></label>
-		<currentLocation>SDF</currentLocation>
-		<efficiency>1.0</efficiency>
-	</aircraft>
-
-	<aircraft id="122">
-		<label></label>
-		<currentLocation>PIT</currentLocation>
-		<efficiency>1.025</efficiency>
-	</aircraft>
-
 	<aircraft id="101">
 		<label></label>
-		<currentLocation>PNS</currentLocation>
-		<efficiency>1.01</efficiency>
-	</aircraft>
-
-	<aircraft id="123">
-		<label></label>
-		<currentLocation>LGA</currentLocation>
-		<efficiency>1.05</efficiency>
+		<currentLocation>GRU</currentLocation>
+		<efficiency>1.015</efficiency> 
+       <srlu></srlu>
 	</aircraft>
 
 	<aircraft id="102">
 		<label></label>
-		<currentLocation>MIA</currentLocation>
-		<efficiency>1.01</efficiency>
-	</aircraft>
-
-	<aircraft id="124">
-		<label></label>
-		<currentLocation>PLS</currentLocation>
-		<efficiency>1.025</efficiency>
+		<currentLocation>REC</currentLocation>
+		<efficiency>1.04</efficiency> 
+       <srlu>5</srlu>
 	</aircraft>
 
 	<aircraft id="103">
 		<label></label>
-		<currentLocation>IND</currentLocation>
-		<efficiency>1.02</efficiency>
-	</aircraft>
-
-	<aircraft id="125">
-		<label></label>
-		<currentLocation>ORF</currentLocation>
-		<efficiency>1.035</efficiency>
+		<currentLocation>GIG</currentLocation>
+		<efficiency>1.03</efficiency> 
+       <srlu>5</srlu>
 	</aircraft>
 
 	<aircraft id="104">
 		<label></label>
-		<currentLocation>CHS</currentLocation>
-		<efficiency>1.02</efficiency>
-	</aircraft>
-
-	<aircraft id="126">
-		<label></label>
-		<currentLocation>ORD</currentLocation>
-		<efficiency>1.035</efficiency>
+		<currentLocation>MAO</currentLocation>
+		<efficiency>1.045</efficiency> 
+       <srlu>5</srlu>
 	</aircraft>
 
 	<aircraft id="105">
 		<label></label>
-		<currentLocation>DTW</currentLocation>
-		<efficiency>1.025</efficiency>
-	</aircraft>
-
-	<aircraft id="127">
-		<label></label>
-		<currentLocation>JAX</currentLocation>
-		<efficiency>1.03</efficiency>
+		<currentLocation>GRU</currentLocation>
+		<efficiency>1.03</efficiency> 
+       <srlu></srlu>
 	</aircraft>
 
 	<aircraft id="106">
 		<label></label>
-		<currentLocation>LIR</currentLocation>
-		<efficiency>1.015</efficiency>
-	</aircraft>
-
-	<aircraft id="128">
-		<label></label>
-		<currentLocation>RIC</currentLocation>
-		<efficiency>1.045</efficiency>
+		<currentLocation>POA</currentLocation>
+		<efficiency>1.05</efficiency> 
+       <srlu>5</srlu>
 	</aircraft>
 
 	<aircraft id="107">
 		<label></label>
-		<currentLocation>CLE</currentLocation>
-		<efficiency>1.005</efficiency>
-	</aircraft>
-
-	<aircraft id="129">
-		<label></label>
-		<currentLocation>DEN</currentLocation>
-		<efficiency>1.03</efficiency>
+		<currentLocation>GIG</currentLocation>
+		<efficiency>1.04</efficiency> 
+       <srlu>5</srlu>
 	</aircraft>
 
 	<aircraft id="108">
 		<label></label>
-		<currentLocation>PIT</currentLocation>
-		<efficiency>1.05</efficiency>
-	</aircraft>
-
-	<aircraft id="109">
-		<label></label>
-		<currentLocation>IND</currentLocation>
-		<efficiency>1.035</efficiency>
+		<currentLocation>POA</currentLocation>
+		<efficiency>1.01</efficiency> 
+       <srlu>5</srlu>
 	</aircraft>
 </fleet>
