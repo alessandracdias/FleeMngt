@@ -55,6 +55,10 @@ public class FleetManagement {
 	protected HashMap<String, Airport> airports;
 	protected HashMap<String, Flight> flights;
 	protected HashMap<String, Aircraft> fleet;
+	
+	private Double maintenance_penalty;
+	private Integer downtime;
+	private Integer overnight;
 
 	protected String aircraftType;
 
@@ -73,6 +77,10 @@ public class FleetManagement {
 			airportFileName = prop.getProperty("airports.data");
 			flightsFileName = prop.getProperty("flights.data");
 			fleetFileName = prop.getProperty("fleet.data");
+			
+			overnight = Integer.parseInt(prop.getProperty("conf.overnight").toString());
+			downtime = Integer.parseInt(prop.getProperty("conf.downtime"));
+			maintenance_penalty = Double.parseDouble(prop.getProperty("conf.maintenance_penalty"));
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -210,20 +218,9 @@ public class FleetManagement {
 						flight.setM_dataEta(new Date(formatComplete.parse(arrivalTime).getTime()));
 					}
 
-//					AirportCode codeOrigin = new AirportCode(origin);
-//					AirportCode codeDestination = new AirportCode(destination);
-//					FuelPlanner fuelPlanner = new FuelPlanner(this.aircraftType, codeOrigin.getIcaoCode(), codeDestination.getIcaoCode());
-
-					// Double valorFuel = Math.random() * (1000 - 5000 + 1) + 5000;
-//					Double valorFuel = Double.valueOf(String.format(Locale.US, "%.0f", fuel));
 					Double valorFuel = Double.parseDouble(fuel);
 					flight.setM_fuelKG(valorFuel);
-//					flight.setM_fuelKG(fuelPlanner.getTotalFuelUsage());
 
-					// TODO: passar valores para o xml
-//					Random randomno = new Random();
-//					Double flightValue = (double) ((randomno.nextInt(6) * 1000) + 5000);
-//					Double doubleFlightValue = Double.valueOf(String.format(Locale.US, "%.0f", flightValue));
 					Double doubleFlightValue = Double.parseDouble(flightValue);
 					flight.setM_flightValue(doubleFlightValue);
 
@@ -314,14 +311,20 @@ public class FleetManagement {
 				String label = eElement.getElementsByTagName("label").item(0).getTextContent();
 				String currentLocation = eElement.getElementsByTagName("currentLocation").item(0).getTextContent();
 				String efficiency = eElement.getElementsByTagName("efficiency").item(0).getTextContent();
+				String srlu = eElement.getElementsByTagName("srlu").item(0).getTextContent();
 
 				Aircraft aircraft = new Aircraft();
 				aircraft.setId(id);
 				aircraft.setCurrLoc(currentLocation);
 				aircraft.setFator(Double.parseDouble(efficiency));
 
-				Double probabilityOfFailure = TreeParser.evalTree();
-				aircraft.setProbabilityOfFailure(probabilityOfFailure);
+				if (srlu.isEmpty()) {
+					Double probabilityOfFailure = TreeParser.evalTree();
+					aircraft.setProbabilityOfFailure(probabilityOfFailure);
+				}
+ 				else {
+					aircraft.setProbabilityOfFailure(Double.parseDouble(srlu));
+				}
 
 				if (!label.equalsIgnoreCase("")) {
 					aircraft.setNome(label);
@@ -359,7 +362,7 @@ public class FleetManagement {
 			if (listaDeAvioes != null && !listaDeAvioes.isEmpty()) {
 				for (int i = 0; i < listaDeAvioes.size(); i++) {
 					AgentController acft = mc.createNewAgent(listaDeAvioes.get(i).getId().toString(),
-							agents.AircraftAgent.class.getName(), new Object[] { listaDeAvioes.get(i), airports });
+							agents.AircraftAgent.class.getName(), new Object[] { listaDeAvioes.get(i), airports, overnight,downtime,maintenance_penalty});
 					acft.start();
 				}
 			} else {

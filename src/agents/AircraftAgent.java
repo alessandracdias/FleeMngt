@@ -34,6 +34,10 @@ public class AircraftAgent extends Agent {
 	public static final String SEND_REFUSE = "Send_Refuse";
 	private static final String UPD_PRICE = "Update_Price";
 	private static final String AIRPORTS = "Airports";
+	private static final String OVERNIGHT = "OVERNIGHT";
+	private static final String DOWNTIME = "DOWNTIME";
+	private static final String MAINTENANCE_PENALTY = "MAINTENANCE_PENALTY";
+
 
 
 	private HashMap<String, Airport> m_airports = new HashMap<String, Airport>();
@@ -63,12 +67,15 @@ public class AircraftAgent extends Agent {
 		 * 
 		 */
 		//Atualizacao: passa os dados dos aeroportos para o agente
-		Object[] args = new Object[2];
+		Object[] args = new Object[5];
 		args = this.getArguments();
 		if (args.length > 0) {
 			m_fsm.getDataStore().put(getLocalName(), (Aircraft) args[0]);
 			m_airports = (HashMap<String, Airport>) args[1];
 			m_fsm.getDataStore().put(AIRPORTS, m_airports);
+			m_fsm.getDataStore().put(OVERNIGHT, args[2]);
+			m_fsm.getDataStore().put(DOWNTIME, args[3]);
+			m_fsm.getDataStore().put(MAINTENANCE_PENALTY, args[4]);
 		}
 
 		/**

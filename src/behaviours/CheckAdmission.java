@@ -34,6 +34,12 @@ public class CheckAdmission extends OneShotBehaviour {
 	private Proposal proposal = new Proposal();
 	private static final String AIRPORTS = "Airports";
 	private HashMap<String, Airport> m_airports = new HashMap<String, Airport>();
+	private static final String OVERNIGHT = "OVERNIGHT";
+	private static final String DOWNTIME = "DOWNTIME";
+	private static final String MAINTENANCE_PENALTY = "MAINTENANCE_PENALTY";
+	private Double maintenance_penalty = 0.0;
+	private Integer downtime = 0;
+	private Integer overnight = 0;
 
 	private final Logger m_logger = Logger.getMyLogger(getClass().getName());
 
@@ -43,6 +49,9 @@ public class CheckAdmission extends OneShotBehaviour {
 		ACLMessage v_cfp = (ACLMessage) ds.get("CFP");
 		m_acft = (Aircraft) ds.get(myAgent.getLocalName());
 		m_airports = (HashMap<String, Airport>) ds.get(AIRPORTS);
+		maintenance_penalty = (Double) ds.get(MAINTENANCE_PENALTY);
+		downtime = (Integer) ds.get(DOWNTIME);
+		overnight = (Integer) ds.get(OVERNIGHT);
 
 		try {
 			// Recebe rota
@@ -85,29 +94,51 @@ public class CheckAdmission extends OneShotBehaviour {
 			if (v_route1stFlt.getM_origem().equals(m_acft.getCurrLoc())) {
 				firs_test = true;
 
-				preco = ((m_route.getM_SumFuelKG() / 1000) * m_acft.getFator() * VALORCOMBUSTIVEL) + m_acft.getPrice();
+				if (m_acft.getMaintenanceStatus().equals(MaintenanceStatus.T1)) {
+					preco = ((m_route.getM_SumFuelKG() / 1000) * m_acft.getFator() * VALORCOMBUSTIVEL)
+							+ m_acft.getPrice() + maintenance_penalty;
+				} else {
+					preco = ((m_route.getM_SumFuelKG() / 1000) * m_acft.getFator() * VALORCOMBUSTIVEL)
+							+ m_acft.getPrice();
+				}
 				v_fltValue = m_route.getM_SumValue();
 				v_fltValue -= preco;
 				ds.put(myAgent.getLocalName() + "_PROPOSAL", v_fltValue);
 			}
 
-			
 			if (m_acft.getMaintenanceStatus().equals(MaintenanceStatus.T2)) {
 				String v_last_airport = flights.get(flights.size() - 1).getM_destino();
-				if (m_airports.containsKey(v_last_airport))
-				{
+				if (m_airports.containsKey(v_last_airport)) {
 					if (m_airports.get(v_last_airport).isMaintenence_base())
 						second_test = true;
 					else
 						second_test = false;
-				}
-				else
-				{
+				} else {
 					m_logger.warning(myAgent.getLocalName() + "O Aeroporto nao existe!");
 					second_test = false;
 				}
-					
-					
+
+				if (overnight == 0 && second_test == false) {
+					if (flights.size() > 1) {
+						Integer index_middle = (int) Math.ceil(flights.size() / 2);
+						String v_middle_airport = flights.get(index_middle).getM_destino();
+						if (m_airports.containsKey(v_middle_airport)) {
+							Long departure = flights.get(index_middle).getM_dataEtd().getTime();
+							Long arrived = flights.get(index_middle - 1).getM_dataEta().getTime();
+							int diffMin = (int) ((departure - arrived) / (60 * 1000));
+							if (downtime >= diffMin) {
+								second_test = true;
+								m_logger.info(myAgent.getLocalName() + " => ADMISSION OK" + v_middle_airport);
+							} else {
+								second_test = false;
+							}
+						} else {
+							m_logger.warning(myAgent.getLocalName() + "O Aeroporto nao existe!");
+							second_test = false;
+						}
+					}
+				}
+
 			}
 
 		} catch (Exception e) {
@@ -116,8 +147,7 @@ public class CheckAdmission extends OneShotBehaviour {
 			preco = null;
 			v_fltValue = null;
 		}
-		
-		
+
 		if (firs_test == true && second_test == true)
 			proposta_aceita = true;
 

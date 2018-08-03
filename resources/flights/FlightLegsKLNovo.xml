@@ -22,7 +22,7 @@
 		<flight id="KL1342">
 			<flightID>KL1342</flightID>
 			<origin>BLL</origin>
-			<destination>AMS</destination>
+			<destination>GOT</destination>
 			<departureTime>30/05/2017 08:05</departureTime>
 			<arrivalTime>30/05/2017 09:15</arrivalTime>
 		</flight>
