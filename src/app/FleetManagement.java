@@ -101,7 +101,7 @@ public class FleetManagement {
 		File iniFile = new File(iniFileName);
 
 		if (!iniFile.exists() || iniFile.isDirectory()) {
-			System.err.println("Não foi possível carregar o arquivo " + iniFileName);
+			System.err.println("NÃ£o foi possÃ­vel carregar o arquivo " + iniFileName);
 			System.exit(0);
 		}
 
@@ -144,7 +144,7 @@ public class FleetManagement {
 			System.out.println("Route -> " + route.getM_id());
 			System.out.println("Fuel Total: " + route.getM_SumFuelKG());
 			// System.out.println("Valor Total: " + route.getM_SumValue());
-			// System.out.println("N�mero de Voos: " + route.getM_lstFlights().size());
+			// System.out.println("Nï¿½mero de Voos: " + route.getM_lstFlights().size());
 			// System.out.println("--------------------------------");
 		}
 
@@ -366,7 +366,7 @@ public class FleetManagement {
 					acft.start();
 				}
 			} else {
-				logger.warning("A lista de Aircraft est� vazia.");
+				logger.warning("A lista de Aircraft estï¿½ vazia.");
 			}
 
 			if (listaDeAvioes != null && !listaDeAvioes.isEmpty() && listaRoutes != null && !listaRoutes.isEmpty()) {
@@ -374,7 +374,7 @@ public class FleetManagement {
 						new Object[] { listaRoutes, listaDeAvioes });
 				tas.start();
 			} else {
-				logger.warning("A lista de Flights est� vazia.");
+				logger.warning("A lista de Flights estï¿½ vazia.");
 			}
 
 			// rma = mc.createNewAgent("rma", "jade.tools.rma.rma", new
