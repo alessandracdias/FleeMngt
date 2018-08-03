@@ -55,7 +55,7 @@ public class FleetManagement {
 	protected HashMap<String, Airport> airports;
 	protected HashMap<String, Flight> flights;
 	protected HashMap<String, Aircraft> fleet;
-
+	
 	private Double maintenance_penalty;
 	private Integer downtime;
 	private Integer overnight;
@@ -77,7 +77,7 @@ public class FleetManagement {
 			airportFileName = prop.getProperty("airports.data");
 			flightsFileName = prop.getProperty("flights.data");
 			fleetFileName = prop.getProperty("fleet.data");
-
+			
 			overnight = Integer.parseInt(prop.getProperty("conf.overnight").toString());
 			downtime = Integer.parseInt(prop.getProperty("conf.downtime"));
 			maintenance_penalty = Double.parseDouble(prop.getProperty("conf.maintenance_penalty"));
@@ -101,7 +101,7 @@ public class FleetManagement {
 		File iniFile = new File(iniFileName);
 
 		if (!iniFile.exists() || iniFile.isDirectory()) {
-			System.err.println("Não foi possível carregar o arquivo " + iniFileName);
+			System.err.println("NÃ£o foi possÃ­vel carregar o arquivo " + iniFileName);
 			System.exit(0);
 		}
 
@@ -144,7 +144,7 @@ public class FleetManagement {
 			System.out.println("Route -> " + route.getM_id());
 			System.out.println("Fuel Total: " + route.getM_SumFuelKG());
 			// System.out.println("Valor Total: " + route.getM_SumValue());
-			// System.out.println("N�mero de Voos: " + route.getM_lstFlights().size());
+			// System.out.println("Nï¿½mero de Voos: " + route.getM_lstFlights().size());
 			// System.out.println("--------------------------------");
 		}
 
@@ -220,6 +220,7 @@ public class FleetManagement {
 
 					Double valorFuel = Double.parseDouble(fuel);
 					flight.setM_fuelKG(valorFuel);
+
 					Double doubleFlightValue = Double.parseDouble(flightValue);
 					flight.setM_flightValue(doubleFlightValue);
 
@@ -321,8 +322,7 @@ public class FleetManagement {
 					Double probabilityOfFailure = TreeParser.evalTree();
 					aircraft.setProbabilityOfFailure(probabilityOfFailure);
 				}
-
-				else {
+ 				else {
 					aircraft.setProbabilityOfFailure(Double.parseDouble(srlu));
 				}
 
@@ -332,7 +332,7 @@ public class FleetManagement {
 
 				fleet.put(id, aircraft);
 
-				listaDeAvioes.add(aircraft);
+				listaDeAvioes.add(aircraft); // Compatibilidade com o modo anterior
 			}
 		}
 
@@ -366,7 +366,7 @@ public class FleetManagement {
 					acft.start();
 				}
 			} else {
-				logger.warning("A lista de Aircraft est� vazia.");
+				logger.warning("A lista de Aircraft estï¿½ vazia.");
 			}
 
 			if (listaDeAvioes != null && !listaDeAvioes.isEmpty() && listaRoutes != null && !listaRoutes.isEmpty()) {
@@ -374,7 +374,7 @@ public class FleetManagement {
 						new Object[] { listaRoutes, listaDeAvioes });
 				tas.start();
 			} else {
-				logger.warning("A lista de Flights est� vazia.");
+				logger.warning("A lista de Flights estï¿½ vazia.");
 			}
 
 			// rma = mc.createNewAgent("rma", "jade.tools.rma.rma", new
