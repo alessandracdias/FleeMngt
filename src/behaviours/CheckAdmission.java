@@ -120,12 +120,12 @@ public class CheckAdmission extends OneShotBehaviour {
 
 				if (overnight == 0 && second_test == false) {
 
-					for ( int i=1; i<= flights.size(); i++)
+					for ( int i=0; i< flights.size(); i++)
 					{
 						String v_airport = flights.get(i).getM_destino();
 						if (m_airports.get(v_airport).isMaintenence_base()) {
-							Long departure = flights.get(i).getM_dataEtd().getTime();
-							Long arrived = flights.get(i-1).getM_dataEta().getTime();
+							Long departure = flights.get(i+1).getM_dataEtd().getTime();
+							Long arrived = flights.get(i).getM_dataEta().getTime();
 							int diffMin = (int) ((departure - arrived) / (60 * 1000));
 							if (downtime <= diffMin) {
 								second_test = true;
