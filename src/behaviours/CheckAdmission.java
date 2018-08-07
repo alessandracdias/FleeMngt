@@ -119,24 +119,29 @@ public class CheckAdmission extends OneShotBehaviour {
 				}
 
 				if (overnight == 0 && second_test == false) {
-					if (flights.size() > 1) {
-						Integer index_middle = (int) Math.ceil(flights.size() / 2);
-						String v_middle_airport = flights.get(index_middle).getM_destino();
-						if (m_airports.containsKey(v_middle_airport)) {
-							Long departure = flights.get(index_middle).getM_dataEtd().getTime();
-							Long arrived = flights.get(index_middle - 1).getM_dataEta().getTime();
+
+					for ( int i=1; i<= flights.size(); i++)
+					{
+						String v_airport = flights.get(i).getM_destino();
+						if (m_airports.get(v_airport).isMaintenence_base()) {
+							Long departure = flights.get(i).getM_dataEtd().getTime();
+							Long arrived = flights.get(i-1).getM_dataEta().getTime();
 							int diffMin = (int) ((departure - arrived) / (60 * 1000));
-							if (downtime >= diffMin) {
+							if (downtime <= diffMin) {
 								second_test = true;
-								m_logger.info(myAgent.getLocalName() + " => ADMISSION OK" + v_middle_airport);
+								m_logger.info(myAgent.getLocalName() + " => ADMISSION OK" + v_airport);
+								break;
 							} else {
 								second_test = false;
 							}
-						} else {
-							m_logger.warning(myAgent.getLocalName() + "O Aeroporto nao existe!");
+						}
+						else
+						{
 							second_test = false;
 						}
 					}
+					
+
 				}
 
 			}
