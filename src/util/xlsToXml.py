@@ -9,8 +9,7 @@ import random as random
 
 # Returns a DataFrame
 # df = pd.read_excel('~/git/FleetMngt/resources/data/FlightLegsKLNovo.xls', 
-df = pd.read_excel('C:\\Users\\imedeiro\\Documents\\SVN_FleetMngtwc\\trunk\\resources\\data\\FlightLegsKLNovo.xls',  
-                   sheet_name='Sheet1')
+df = pd.read_excel('FlightLegs.xls')
 
 df['LegETD'] = df['LegETD'].apply(lambda x: x.strftime('%d/%m/%Y %H:%M:%S'))
 df['LegETA'] = df['LegETA'].apply(lambda x: x.strftime('%d/%m/%Y %H:%M:%S'))
@@ -26,7 +25,7 @@ for x in  df['Acft'].unique():
     flights.appendChild(router)    
     legs= df[df.Acft == x]
     
-    for index, row in legs.head().iterrows():
+    for index, row in legs.iterrows():
         flight = doc.createElement('flight')
         router.appendChild(flight)
         
