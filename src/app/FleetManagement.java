@@ -311,19 +311,19 @@ public class FleetManagement {
 				String label = eElement.getElementsByTagName("label").item(0).getTextContent();
 				String currentLocation = eElement.getElementsByTagName("currentLocation").item(0).getTextContent();
 				String efficiency = eElement.getElementsByTagName("efficiency").item(0).getTextContent();
-				String srlu = eElement.getElementsByTagName("srlu").item(0).getTextContent();
+				String srul = eElement.getElementsByTagName("srul").item(0).getTextContent();
 
 				Aircraft aircraft = new Aircraft();
 				aircraft.setId(id);
 				aircraft.setCurrLoc(currentLocation);
 				aircraft.setFator(Double.parseDouble(efficiency));
 
-				if (srlu.isEmpty()) {
+				if (srul.isEmpty()) {
 					Double probabilityOfFailure = TreeParser.evalTree();
 					aircraft.setProbabilityOfFailure(probabilityOfFailure);
 				}
  				else {
-					aircraft.setProbabilityOfFailure(Double.parseDouble(srlu));
+					aircraft.setProbabilityOfFailure(Double.parseDouble(srul));
 				}
 
 				if (!label.equalsIgnoreCase("")) {
