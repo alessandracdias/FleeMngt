@@ -5,47 +5,47 @@
 		<label></label>
 		<currentLocation>GRU</currentLocation>
 		<efficiency>1.015</efficiency>
-	</aircraft>
+		<srul>31</srul></aircraft>
 
 	<aircraft id="102">
 		<label></label>
 		<currentLocation>REC</currentLocation>
 		<efficiency>1.04</efficiency>
-	</aircraft>
+		<srul>5</srul></aircraft>
 
 	<aircraft id="103">
 		<label></label>
 		<currentLocation>GIG</currentLocation>
 		<efficiency>1.03</efficiency>
-	</aircraft>
+		<srul>5</srul></aircraft>
 
 	<aircraft id="104">
 		<label></label>
 		<currentLocation>MAO</currentLocation>
 		<efficiency>1.045</efficiency>
-	</aircraft>
+		<srul>5</srul></aircraft>
 
 	<aircraft id="105">
 		<label></label>
 		<currentLocation>GRU</currentLocation>
 		<efficiency>1.03</efficiency>
-	</aircraft>
+		<srul>5</srul></aircraft>
 
 	<aircraft id="106">
 		<label></label>
 		<currentLocation>POA</currentLocation>
 		<efficiency>1.05</efficiency>
-	</aircraft>
+		<srul>5</srul></aircraft>
 
 	<aircraft id="107">
 		<label></label>
 		<currentLocation>GIG</currentLocation>
 		<efficiency>1.04</efficiency>
-	</aircraft>
+		<srul>31</srul></aircraft>
 
 	<aircraft id="108">
 		<label></label>
 		<currentLocation>POA</currentLocation>
 		<efficiency>1.01</efficiency>
-	</aircraft>
+		<srul>31</srul></aircraft>
 </fleet>

@@ -569,7 +569,7 @@
       </flight>
       <flight id="KL1640">
         <flightID>KL1640</flightID>
-        <origin>PLR</origin>
+        <origin>FLR</origin>
         <destination>AMS</destination>
         <departureTime>30/05/2017 09:20:00</departureTime>
         <arrivalTime>30/05/2017 11:30:00</arrivalTime>

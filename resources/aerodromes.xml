@@ -9,7 +9,7 @@
 		<icao>EGPD</icao>
 		<latitude>57.2019005</latitude>
 		<longitude>-2.1977799</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="AES">
@@ -19,7 +19,7 @@
 		<icao>ENAL</icao>
 		<latitude>62.5625</latitude>
 		<longitude>6.1197</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="ALL">
@@ -29,7 +29,7 @@
 		<icao>LIMG</icao>
 		<latitude>44.0505981</latitude>
 		<longitude>8.12743</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="AMS">
@@ -59,7 +59,7 @@
 		<icao>EGBB</icao>
 		<latitude>52.4538994</latitude>
 		<longitude>-1.7480299</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="BIO">
@@ -69,7 +69,7 @@
 		<icao>LEBB</icao>
 		<latitude>43.3011017</latitude>
 		<longitude>-2.91061</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="BLL">
@@ -79,7 +79,7 @@
 		<icao>EKBI</icao>
 		<latitude>55.7402992</latitude>
 		<longitude>9.1517801</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="BLQ">
@@ -89,7 +89,7 @@
 		<icao>LIPE</icao>
 		<latitude>44.5354004</latitude>
 		<longitude>11.2887001</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="BOD">
@@ -99,7 +99,7 @@
 		<icao>LFBD</icao>
 		<latitude>44.8283005</latitude>
 		<longitude>-0.715556</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="BRE">
@@ -109,7 +109,7 @@
 		<icao>EDDW</icao>
 		<latitude>53.0475006</latitude>
 		<longitude>8.7866697</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="BRS">
@@ -119,7 +119,7 @@
 		<icao>EGGD</icao>
 		<latitude>51.3827019</latitude>
 		<longitude>-2.71909</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="BRU">
@@ -129,7 +129,7 @@
 		<icao>EBBR</icao>
 		<latitude>50.9014015</latitude>
 		<longitude>4.4844398</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="CWL">
@@ -139,7 +139,7 @@
 		<icao>EGFF</icao>
 		<latitude>51.3967018</latitude>
 		<longitude>-3.3433299</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="DUS">
@@ -149,7 +149,7 @@
 		<icao>EDDL</icao>
 		<latitude>51.2895012</latitude>
 		<longitude>6.7667799</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="FLR">
@@ -159,7 +159,7 @@
 		<icao>LIRQ</icao>
 		<latitude>43.8100014</latitude>
 		<longitude>11.2051001</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="FRA">
@@ -169,7 +169,7 @@
 		<icao>EDDF</icao>
 		<latitude>50.0264015</latitude>
 		<longitude>8.5431299</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="GOT">
@@ -179,7 +179,7 @@
 		<icao>ESGG</icao>
 		<latitude>57.6627998</latitude>
 		<longitude>12.2798004</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="GVA">
@@ -189,7 +189,7 @@
 		<icao>LSGG</icao>
 		<latitude>46.2380981</latitude>
 		<longitude>6.1089501</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="HAM">
@@ -199,7 +199,7 @@
 		<icao>EDDH</icao>
 		<latitude>53.6304016</latitude>
 		<longitude>9.9882298</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="KRK">
@@ -209,7 +209,7 @@
 		<icao>EPKK</icao>
 		<latitude>50.0777016</latitude>
 		<longitude>19.7847996</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="LPI">
@@ -219,7 +219,7 @@
 		<icao>ESSL</icao>
 		<latitude>58.4062004</latitude>
 		<longitude>15.6805</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="LUX">
@@ -229,7 +229,7 @@
 		<icao>ELLX</icao>
 		<latitude>49.6265984</latitude>
 		<longitude>6.2115202</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="LYS">
@@ -239,7 +239,7 @@
 		<icao>LFLL</icao>
 		<latitude>45.7263985</latitude>
 		<longitude>5.0908298</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="MAN">
@@ -249,7 +249,7 @@
 		<icao>EGCC</icao>
 		<latitude>53.3536987</latitude>
 		<longitude>-2.27495</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="NCE">
@@ -259,7 +259,7 @@
 		<icao>LFMN</icao>
 		<latitude>43.6584015</latitude>
 		<longitude>7.2158699</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="NCL">
@@ -269,7 +269,7 @@
 		<icao>EGNT</icao>
 		<latitude>55.0374985</latitude>
 		<longitude>-1.6916699</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="NUE">
@@ -279,7 +279,7 @@
 		<icao>EDDN</icao>
 		<latitude>49.4986992</latitude>
 		<longitude>11.0669003</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="OSL">
@@ -289,7 +289,7 @@
 		<icao>ENGM</icao>
 		<latitude>60.1939011</latitude>
 		<longitude>11.1004</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="PLR">
@@ -299,7 +299,7 @@
 		<icao></icao>
 		<latitude>33.5833333</latitude>
 		<longitude>-86.2833333</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="PRG">
@@ -309,7 +309,7 @@
 		<icao>LKPR</icao>
 		<latitude>50.1007996</latitude>
 		<longitude>14.2600002</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="STR">
@@ -319,7 +319,7 @@
 		<icao>EDDS</icao>
 		<latitude>48.6898994</latitude>
 		<longitude>9.2219601</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="TLS">
@@ -329,7 +329,7 @@
 		<icao>LFBO</icao>
 		<latitude>43.6291008</latitude>
 		<longitude>1.36382</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="TRD">
@@ -339,7 +339,7 @@
 		<icao>ENVA</icao>
 		<latitude>63.4578018</latitude>
 		<longitude>10.9239998</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="TRF">
@@ -349,7 +349,7 @@
 		<icao>ENTO</icao>
 		<latitude>59.1866989</latitude>
 		<longitude>10.2586002</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="TRN">
@@ -359,7 +359,7 @@
 		<icao>LIMF</icao>
 		<latitude>45.2008018</latitude>
 		<longitude>7.6496301</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 	
 	<aerodrome id="TRO">
@@ -369,7 +369,7 @@
 		<icao>YTRE</icao>
 		<latitude>-31.8885994</latitude>
 		<longitude>152.5140076</longitude> 
-        <maintenence_base> YES </maintenence_base>
+        <maintenence_base> NO </maintenence_base>
 	</aerodrome>
 
 </aerodromes>
