@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+
+<aerodromes>
+<aerodrome id="GRU">
+    <name>Guarulhos - Governador André Franco Montoro International Airport (GRU)</name>
+    <location>São Paulo, Brazil (BR) Large Airport</location>
+    <iata>GRU</iata>
+    <icao>SBGR</icao>
+    <latitude>-23.435556411743164</latitude>
+    <longitude>-46.47305679321289</longitude>
+    <maintenence_base>NO</maintenence_base>
+</aerodrome>
+<aerodrome id="GIG">
+    <name>Rio Galeão – Tom Jobim International Airport (GIG)</name>
+    <location>Rio De Janeiro, Brazil (BR) Large Airport</location>
+    <iata>GIG</iata>
+    <icao>SBGL</icao>
+    <latitude>-22.809999465942383</latitude>
+    <longitude>-43.25055694580078</longitude>
+    <maintenence_base>NO</maintenence_base>
+</aerodrome>
+<aerodrome id="POA">
+    <name>Salgado Filho Airport (POA)</name>
+    <location>Porto Alegre, Brazil (BR) Medium Airport</location>
+    <iata>POA</iata>
+    <icao>SBPA</icao>
+    <latitude>-29.994400024414062</latitude>
+    <longitude>-51.1713981628418</longitude>
+    <maintenence_base>YES</maintenence_base>
+</aerodrome>
+<aerodrome id="MAO">
+    <name>Eduardo Gomes International Airport (MAO)</name>
+    <location>Manaus, Brazil (BR) Medium Airport</location>
+    <iata>MAO</iata>
+    <icao>SBEG</icao>
+    <latitude>-3.0386099815368652</latitude>
+    <longitude>-60.04970169067383</longitude>
+    <maintenence_base>NO</maintenence_base>
+</aerodrome>
+<aerodrome id="BSB">
+    <name>Presidente Juscelino Kubistschek International Airport (BSB)</name>
+    <location>Brasília, Brazil (BR) Large Airport</location>
+    <iata>BSB</iata>
+    <icao>SBBR</icao>
+    <latitude>-15.86916732788086</latitude>
+    <longitude>-47.920833587646484</longitude>
+    <maintenence_base>YES</maintenence_base>
+</aerodrome>
+<aerodrome id="CWB">
+    <name>Afonso Pena Airport (CWB)</name>
+    <location>Curitiba, Brazil (BR) Large Airport</location>
+    <iata>CWB</iata>
+    <icao>SBCT</icao>
+    <latitude>-25.528499603271484</latitude>
+    <longitude>-49.17580032348633</longitude>
+    <maintenence_base>NO</maintenence_base>
+</aerodrome>
+<aerodrome id="FLN">
+    <name>Hercílio Luz International Airport (FLN)</name>
+    <location>Florianópolis, Brazil (BR) Large Airport</location>
+    <iata>FLN</iata>
+    <icao>SBFL</icao>
+    <latitude>-27.670278549194336</latitude>
+    <longitude>-48.5525016784668</longitude>
+    <maintenence_base>NO</maintenence_base>
+</aerodrome>
+<aerodrome id="REC">
+    <name>Guararapes - Gilberto Freyre International Airport (REC)</name>
+    <location>Recife, Brazil (BR) Medium Airport</location>
+    <iata>REC</iata>
+    <icao>SBRF</icao>
+    <latitude>-8.126489639282227</latitude>
+    <longitude>-34.92359924316406</longitude>
+    <maintenence_base>NO</maintenence_base>
+</aerodrome>
+<aerodrome id="SSA">
+    <name>Deputado Luiz Eduardo Magalhães International Airport (SSA)</name>
+    <location>Salvador, Brazil (BR) Large Airport</location>
+    <iata>SSA</iata>
+    <icao>SBSV</icao>
+    <latitude>-12.908611297607422</latitude>
+    <longitude>-38.3224983215332</longitude>
+    <maintenence_base>NO</maintenence_base>
+</aerodrome>
+</aerodromes>

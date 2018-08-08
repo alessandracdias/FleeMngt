@@ -7,7 +7,7 @@
         <destination>GIG</destination>
         <departureTime>30/05/2017 07:00:00</departureTime>
         <arrivalTime>30/05/2017 08:00:00</arrivalTime>
-        <flightValue>6000</flightValue>
+        <flightValue>9000</flightValue>
         <fuel>4000</fuel>
       </flight>
       <flight id="1002">
@@ -16,7 +16,7 @@
         <destination>SSA</destination>
         <departureTime>30/05/2017 09:00:00</departureTime>
         <arrivalTime>30/05/2017 10:30:00</arrivalTime>
-        <flightValue>7000</flightValue>
+        <flightValue>6000</flightValue>
         <fuel>1000</fuel>
       </flight>
       <flight id="1003">
@@ -26,7 +26,7 @@
         <departureTime>30/05/2017 11:30:00</departureTime>
         <arrivalTime>30/05/2017 12:30:00</arrivalTime>
         <flightValue>6000</flightValue>
-        <fuel>4000</fuel>
+        <fuel>3000</fuel>
       </flight>
       <flight id="1004">
         <flightID>1004</flightID>
@@ -34,8 +34,8 @@
         <destination>SSA</destination>
         <departureTime>30/05/2017 16:30:00</departureTime>
         <arrivalTime>30/05/2017 17:30:00</arrivalTime>
-        <flightValue>9000</flightValue>
-        <fuel>2000</fuel>
+        <flightValue>5000</flightValue>
+        <fuel>3000</fuel>
       </flight>
       <flight id="1005">
         <flightID>1005</flightID>
@@ -43,7 +43,16 @@
         <destination>GIG</destination>
         <departureTime>30/05/2017 18:30:00</departureTime>
         <arrivalTime>30/05/2017 20:00:00</arrivalTime>
-        <flightValue>5000</flightValue>
+        <flightValue>7000</flightValue>
+        <fuel>2000</fuel>
+      </flight>
+      <flight id="1006">
+        <flightID>1006</flightID>
+        <origin>GIG</origin>
+        <destination>GRU</destination>
+        <departureTime>30/05/2017 21:00:00</departureTime>
+        <arrivalTime>30/05/2017 22:00:00</arrivalTime>
+        <flightValue>9000</flightValue>
         <fuel>2000</fuel>
       </flight>
     </route>
@@ -54,8 +63,8 @@
         <destination>SSA</destination>
         <departureTime>30/05/2017 07:30:00</departureTime>
         <arrivalTime>30/05/2017 08:30:00</arrivalTime>
-        <flightValue>9000</flightValue>
-        <fuel>4000</fuel>
+        <flightValue>8000</flightValue>
+        <fuel>5000</fuel>
       </flight>
       <flight id="2008">
         <flightID>2008</flightID>
@@ -63,8 +72,8 @@
         <destination>GIG</destination>
         <departureTime>30/05/2017 11:30:00</departureTime>
         <arrivalTime>30/05/2017 13:00:00</arrivalTime>
-        <flightValue>5000</flightValue>
-        <fuel>3000</fuel>
+        <flightValue>9000</flightValue>
+        <fuel>5000</fuel>
       </flight>
       <flight id="2009">
         <flightID>2009</flightID>
@@ -72,7 +81,7 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 14:30:00</departureTime>
         <arrivalTime>30/05/2017 15:30:00</arrivalTime>
-        <flightValue>5000</flightValue>
+        <flightValue>10000</flightValue>
         <fuel>1000</fuel>
       </flight>
       <flight id="2010">
@@ -81,8 +90,8 @@
         <destination>GIG</destination>
         <departureTime>30/05/2017 17:00:00</departureTime>
         <arrivalTime>30/05/2017 18:00:00</arrivalTime>
-        <flightValue>9000</flightValue>
-        <fuel>4000</fuel>
+        <flightValue>6000</flightValue>
+        <fuel>6000</fuel>
       </flight>
       <flight id="2011">
         <flightID>2011</flightID>
@@ -90,8 +99,17 @@
         <destination>SSA</destination>
         <departureTime>30/05/2017 19:00:00</departureTime>
         <arrivalTime>30/05/2017 20:30:00</arrivalTime>
-        <flightValue>10000</flightValue>
-        <fuel>3000</fuel>
+        <flightValue>7000</flightValue>
+        <fuel>4000</fuel>
+      </flight>
+      <flight id="2012">
+        <flightID>2012</flightID>
+        <origin>SSA</origin>
+        <destination>REC</destination>
+        <departureTime>30/05/2017 21:30:00</departureTime>
+        <arrivalTime>30/05/2017 22:30:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>6000</fuel>
       </flight>
     </route>
     <route>
@@ -101,8 +119,8 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 07:00:00</departureTime>
         <arrivalTime>30/05/2017 08:00:00</arrivalTime>
-        <flightValue>8000</flightValue>
-        <fuel>2000</fuel>
+        <flightValue>9000</flightValue>
+        <fuel>5000</fuel>
       </flight>
       <flight id="3014">
         <flightID>3014</flightID>
@@ -110,7 +128,7 @@
         <destination>BSB</destination>
         <departureTime>30/05/2017 09:00:00</departureTime>
         <arrivalTime>30/05/2017 11:00:00</arrivalTime>
-        <flightValue>7000</flightValue>
+        <flightValue>8000</flightValue>
         <fuel>3000</fuel>
       </flight>
       <flight id="3015">
@@ -119,8 +137,8 @@
         <destination>MAO</destination>
         <departureTime>30/05/2017 12:00:00</departureTime>
         <arrivalTime>30/05/2017 14:00:00</arrivalTime>
-        <flightValue>8000</flightValue>
-        <fuel>2000</fuel>
+        <flightValue>9000</flightValue>
+        <fuel>1000</fuel>
       </flight>
       <flight id="3016">
         <flightID>3016</flightID>
@@ -128,8 +146,8 @@
         <destination>BSB</destination>
         <departureTime>30/05/2017 15:00:00</departureTime>
         <arrivalTime>30/05/2017 17:00:00</arrivalTime>
-        <flightValue>8000</flightValue>
-        <fuel>3000</fuel>
+        <flightValue>9000</flightValue>
+        <fuel>1000</fuel>
       </flight>
       <flight id="3017">
         <flightID>3017</flightID>
@@ -137,8 +155,17 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 18:00:00</departureTime>
         <arrivalTime>30/05/2017 20:00:00</arrivalTime>
-        <flightValue>7000</flightValue>
-        <fuel>1000</fuel>
+        <flightValue>10000</flightValue>
+        <fuel>4000</fuel>
+      </flight>
+      <flight id="3018">
+        <flightID>3018</flightID>
+        <origin>GRU</origin>
+        <destination>GIG</destination>
+        <departureTime>30/05/2017 21:00:00</departureTime>
+        <arrivalTime>30/05/2017 22:00:00</arrivalTime>
+        <flightValue>6000</flightValue>
+        <fuel>5000</fuel>
       </flight>
     </route>
     <route>
@@ -148,8 +175,8 @@
         <destination>BSB</destination>
         <departureTime>30/05/2017 06:30:00</departureTime>
         <arrivalTime>30/05/2017 08:30:00</arrivalTime>
-        <flightValue>5000</flightValue>
-        <fuel>4000</fuel>
+        <flightValue>10000</flightValue>
+        <fuel>1000</fuel>
       </flight>
       <flight id="4020">
         <flightID>4020</flightID>
@@ -158,7 +185,7 @@
         <departureTime>30/05/2017 09:30:00</departureTime>
         <arrivalTime>30/05/2017 11:30:00</arrivalTime>
         <flightValue>6000</flightValue>
-        <fuel>1000</fuel>
+        <fuel>6000</fuel>
       </flight>
       <flight id="4021">
         <flightID>4021</flightID>
@@ -166,8 +193,8 @@
         <destination>GIG</destination>
         <departureTime>30/05/2017 12:30:00</departureTime>
         <arrivalTime>30/05/2017 13:30:00</arrivalTime>
-        <flightValue>9000</flightValue>
-        <fuel>1000</fuel>
+        <flightValue>8000</flightValue>
+        <fuel>2000</fuel>
       </flight>
       <flight id="4022">
         <flightID>4022</flightID>
@@ -176,7 +203,7 @@
         <departureTime>30/05/2017 15:30:00</departureTime>
         <arrivalTime>30/05/2017 16:30:00</arrivalTime>
         <flightValue>7000</flightValue>
-        <fuel>4000</fuel>
+        <fuel>1000</fuel>
       </flight>
       <flight id="4023">
         <flightID>4023</flightID>
@@ -185,7 +212,16 @@
         <departureTime>30/05/2017 17:30:00</departureTime>
         <arrivalTime>30/05/2017 19:30:00</arrivalTime>
         <flightValue>9000</flightValue>
-        <fuel>2000</fuel>
+        <fuel>4000</fuel>
+      </flight>
+      <flight id="4024">
+        <flightID>4024</flightID>
+        <origin>BSB</origin>
+        <destination>MAO</destination>
+        <departureTime>30/05/2017 20:30:00</departureTime>
+        <arrivalTime>30/05/2017 22:30:00</arrivalTime>
+        <flightValue>7000</flightValue>
+        <fuel>4000</fuel>
       </flight>
     </route>
     <route>
@@ -195,8 +231,8 @@
         <destination>CWB</destination>
         <departureTime>30/05/2017 07:30:00</departureTime>
         <arrivalTime>30/05/2017 08:30:00</arrivalTime>
-        <flightValue>10000</flightValue>
-        <fuel>4000</fuel>
+        <flightValue>9000</flightValue>
+        <fuel>5000</fuel>
       </flight>
       <flight id="5026">
         <flightID>5026</flightID>
@@ -204,8 +240,8 @@
         <destination>FLN</destination>
         <departureTime>30/05/2017 09:30:00</departureTime>
         <arrivalTime>30/05/2017 10:30:00</arrivalTime>
-        <flightValue>5000</flightValue>
-        <fuel>1000</fuel>
+        <flightValue>9000</flightValue>
+        <fuel>2000</fuel>
       </flight>
       <flight id="5027">
         <flightID>5027</flightID>
@@ -213,7 +249,7 @@
         <destination>POA</destination>
         <departureTime>30/05/2017 11:30:00</departureTime>
         <arrivalTime>30/05/2017 12:30:00</arrivalTime>
-        <flightValue>7000</flightValue>
+        <flightValue>6000</flightValue>
         <fuel>1000</fuel>
       </flight>
       <flight id="5028">
@@ -223,7 +259,7 @@
         <departureTime>30/05/2017 18:00:00</departureTime>
         <arrivalTime>30/05/2017 19:00:00</arrivalTime>
         <flightValue>6000</flightValue>
-        <fuel>1000</fuel>
+        <fuel>4000</fuel>
       </flight>
       <flight id="5029">
         <flightID>5029</flightID>
@@ -231,8 +267,17 @@
         <destination>CWB</destination>
         <departureTime>30/05/2017 20:00:00</departureTime>
         <arrivalTime>30/05/2017 21:00:00</arrivalTime>
-        <flightValue>5000</flightValue>
-        <fuel>3000</fuel>
+        <flightValue>8000</flightValue>
+        <fuel>2000</fuel>
+      </flight>
+      <flight id="5030">
+        <flightID>5030</flightID>
+        <origin>CWB</origin>
+        <destination>GRU</destination>
+        <departureTime>30/05/2017 22:00:00</departureTime>
+        <arrivalTime>30/05/2017 23:00:00</arrivalTime>
+        <flightValue>10000</flightValue>
+        <fuel>1000</fuel>
       </flight>
     </route>
     <route>
@@ -243,7 +288,7 @@
         <departureTime>30/05/2017 07:30:00</departureTime>
         <arrivalTime>30/05/2017 08:30:00</arrivalTime>
         <flightValue>10000</flightValue>
-        <fuel>3000</fuel>
+        <fuel>6000</fuel>
       </flight>
       <flight id="6032">
         <flightID>6032</flightID>
@@ -251,8 +296,8 @@
         <destination>CWB</destination>
         <departureTime>30/05/2017 09:30:00</departureTime>
         <arrivalTime>30/05/2017 10:30:00</arrivalTime>
-        <flightValue>6000</flightValue>
-        <fuel>2000</fuel>
+        <flightValue>8000</flightValue>
+        <fuel>6000</fuel>
       </flight>
       <flight id="6033">
         <flightID>6033</flightID>
@@ -260,8 +305,8 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 11:30:00</departureTime>
         <arrivalTime>30/05/2017 12:30:00</arrivalTime>
-        <flightValue>9000</flightValue>
-        <fuel>3000</fuel>
+        <flightValue>10000</flightValue>
+        <fuel>4000</fuel>
       </flight>
       <flight id="6034">
         <flightID>6034</flightID>
@@ -269,8 +314,8 @@
         <destination>CWB</destination>
         <departureTime>30/05/2017 18:00:00</departureTime>
         <arrivalTime>30/05/2017 19:00:00</arrivalTime>
-        <flightValue>8000</flightValue>
-        <fuel>1000</fuel>
+        <flightValue>7000</flightValue>
+        <fuel>2000</fuel>
       </flight>
       <flight id="6035">
         <flightID>6035</flightID>
@@ -278,7 +323,16 @@
         <destination>FLN</destination>
         <departureTime>30/05/2017 20:00:00</departureTime>
         <arrivalTime>30/05/2017 21:00:00</arrivalTime>
-        <flightValue>10000</flightValue>
+        <flightValue>9000</flightValue>
+        <fuel>1000</fuel>
+      </flight>
+      <flight id="6036">
+        <flightID>6036</flightID>
+        <origin>FLN</origin>
+        <destination>POA</destination>
+        <departureTime>30/05/2017 22:00:00</departureTime>
+        <arrivalTime>30/05/2017 23:00:00</arrivalTime>
+        <flightValue>7000</flightValue>
         <fuel>2000</fuel>
       </flight>
     </route>
@@ -289,8 +343,8 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 07:30:00</departureTime>
         <arrivalTime>30/05/2017 08:30:00</arrivalTime>
-        <flightValue>6000</flightValue>
-        <fuel>4000</fuel>
+        <flightValue>10000</flightValue>
+        <fuel>2000</fuel>
       </flight>
       <flight id="7038">
         <flightID>7038</flightID>
@@ -298,8 +352,8 @@
         <destination>GIG</destination>
         <departureTime>30/05/2017 09:30:00</departureTime>
         <arrivalTime>30/05/2017 10:30:00</arrivalTime>
-        <flightValue>5000</flightValue>
-        <fuel>4000</fuel>
+        <flightValue>10000</flightValue>
+        <fuel>5000</fuel>
       </flight>
       <flight id="7039">
         <flightID>7039</flightID>
@@ -307,8 +361,8 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 11:30:00</departureTime>
         <arrivalTime>30/05/2017 12:30:00</arrivalTime>
-        <flightValue>5000</flightValue>
-        <fuel>4000</fuel>
+        <flightValue>10000</flightValue>
+        <fuel>5000</fuel>
       </flight>
       <flight id="7040">
         <flightID>7040</flightID>
@@ -325,8 +379,35 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 16:30:00</departureTime>
         <arrivalTime>30/05/2017 17:30:00</arrivalTime>
-        <flightValue>9000</flightValue>
+        <flightValue>7000</flightValue>
         <fuel>2000</fuel>
+      </flight>
+      <flight id="7042">
+        <flightID>7042</flightID>
+        <origin>GRU</origin>
+        <destination>GIG</destination>
+        <departureTime>30/05/2017 18:30:00</departureTime>
+        <arrivalTime>30/05/2017 19:30:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>5000</fuel>
+      </flight>
+      <flight id="7043">
+        <flightID>7043</flightID>
+        <origin>GIG</origin>
+        <destination>GRU</destination>
+        <departureTime>30/05/2017 20:30:00</departureTime>
+        <arrivalTime>30/05/2017 21:30:00</arrivalTime>
+        <flightValue>8000</flightValue>
+        <fuel>3000</fuel>
+      </flight>
+      <flight id="7044">
+        <flightID>7044</flightID>
+        <origin>GRU</origin>
+        <destination>GIG</destination>
+        <departureTime>30/05/2017 22:30:00</departureTime>
+        <arrivalTime>30/05/2017 23:30:00</arrivalTime>
+        <flightValue>9000</flightValue>
+        <fuel>3000</fuel>
       </flight>
     </route>
     <route>
@@ -336,7 +417,7 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 07:00:00</departureTime>
         <arrivalTime>30/05/2017 08:30:00</arrivalTime>
-        <flightValue>9000</flightValue>
+        <flightValue>6000</flightValue>
         <fuel>1000</fuel>
       </flight>
       <flight id="8046">
@@ -345,8 +426,8 @@
         <destination>REC</destination>
         <departureTime>30/05/2017 09:30:00</departureTime>
         <arrivalTime>30/05/2017 11:30:00</arrivalTime>
-        <flightValue>9000</flightValue>
-        <fuel>3000</fuel>
+        <flightValue>5000</flightValue>
+        <fuel>4000</fuel>
       </flight>
       <flight id="8047">
         <flightID>8047</flightID>
@@ -354,8 +435,8 @@
         <destination>MAO</destination>
         <departureTime>30/05/2017 12:30:00</departureTime>
         <arrivalTime>30/05/2017 14:30:00</arrivalTime>
-        <flightValue>10000</flightValue>
-        <fuel>4000</fuel>
+        <flightValue>6000</flightValue>
+        <fuel>5000</fuel>
       </flight>
       <flight id="8048">
         <flightID>8048</flightID>
@@ -363,7 +444,7 @@
         <destination>REC</destination>
         <departureTime>30/05/2017 15:30:00</departureTime>
         <arrivalTime>30/05/2017 17:30:00</arrivalTime>
-        <flightValue>7000</flightValue>
+        <flightValue>8000</flightValue>
         <fuel>3000</fuel>
       </flight>
       <flight id="8049">
@@ -372,7 +453,16 @@
         <destination>GRU</destination>
         <departureTime>30/05/2017 18:30:00</departureTime>
         <arrivalTime>30/05/2017 20:30:00</arrivalTime>
-        <flightValue>10000</flightValue>
+        <flightValue>6000</flightValue>
+        <fuel>5000</fuel>
+      </flight>
+      <flight id="8050">
+        <flightID>8050</flightID>
+        <origin>GRU</origin>
+        <destination>POA</destination>
+        <departureTime>30/05/2017 21:30:00</departureTime>
+        <arrivalTime>30/05/2017 23:00:00</arrivalTime>
+        <flightValue>5000</flightValue>
         <fuel>3000</fuel>
       </flight>
     </route>
