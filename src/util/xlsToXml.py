@@ -9,8 +9,9 @@ import random as random
 
 # Returns a DataFrame
 # df = pd.read_excel('~/git/FleetMngt/resources/data/FlightLegsKLNovo.xls', 
-df = pd.read_excel('FlightLegs.xls')
-
+# df = pd.read_excel('FlightLegs.xls')
+df = pd.read_excel('/Users/ivopdm/Documents/GitHub/FleeMngt/resources/data/FlightLegsRepublicNovo.xls')
+                   
 df['LegETD'] = df['LegETD'].apply(lambda x: x.strftime('%d/%m/%Y %H:%M:%S'))
 df['LegETA'] = df['LegETA'].apply(lambda x: x.strftime('%d/%m/%Y %H:%M:%S'))
 
@@ -60,9 +61,9 @@ for x in  df['Acft'].unique():
         flight.appendChild(flightValue)
         
         fuel = doc.createElement('fuel')
-        fuel.appendChild(doc.createTextNode(str(row['Fuel'])))
-#        tripFuel = random.randrange(6) * 1000 + 1000
-#        fuel.appendChild(doc.createTextNode(str(tripFuel)))
+ #       fuel.appendChild(doc.createTextNode(str(row['Fuel'])))
+        tripFuel = random.randrange(6) * 1000 + 1000
+        fuel.appendChild(doc.createTextNode(str(tripFuel)))
         flight.appendChild(fuel)
         
 print(doc.toprettyxml(indent = '   '))

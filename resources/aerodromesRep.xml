@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+
+<aerodromes>
+	<aerodrome id="ABQ">
+		<name>Albuquerque International Sunport Airport (ABQ)</name>
+		<location>Albuquerque, United States (US) Large Airport</location>
+		<iata>ABQ</iata>
+		<icao>KABQ</icao>
+		<latitude>35.0401993</latitude>
+		<longitude>-106.6090012</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="ATL">
+		<name>Hartsfield Jackson Atlanta International Airport (ATL)</name>
+		<location>Atlanta, United States (US) Large Airport</location>
+		<iata>ATL</iata>
+		<icao>KATL</icao>
+		<latitude>33.6366997</latitude>
+		<longitude>-84.4281006</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="BDL">
+		<name>Bradley International Airport (BDL)</name>
+		<location>Hartford, United States (US) Large Airport</location>
+		<iata>BDL</iata>
+		<icao>KBDL</icao>
+		<latitude>41.9389</latitude>
+		<longitude>-72.683197</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="BNA">
+		<name>Nashville International Airport (BNA)</name>
+		<location>Nashville, United States (US) Large Airport</location>
+		<iata>BNA</iata>
+		<icao>KBNA</icao>
+		<latitude>36.1245003</latitude>
+		<longitude>-86.6781998</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="CHS">
+		<name>Charleston Air Force Base-International (CHS)</name>
+		<location>Charleston, United States (US) Large Airport</location>
+		<iata>CHS</iata>
+		<icao>KCHS</icao>
+		<latitude>32.8986015</latitude>
+		<longitude>-80.0404968</longitude>
+		<maintenence_base>YES</maintenence_base>
+	</aerodrome>
+	<aerodrome id="CLE">
+		<name>Cleveland Hopkins International Airport (CLE)</name>
+		<location>Cleveland, United States (US) Large Airport</location>
+		<iata>CLE</iata>
+		<icao>KCLE</icao>
+		<latitude>41.4117012</latitude>
+		<longitude>-81.8498001</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="CMH">
+		<name>Port Columbus International Airport (CMH)</name>
+		<location>Columbus, United States (US) Large Airport</location>
+		<iata>CMH</iata>
+		<icao>KCMH</icao>
+		<latitude>39.9980011</latitude>
+		<longitude>-82.8918991</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="CZM">
+		<name>Cozumel International Airport (CZM)</name>
+		<location>Cozumel, Mexico (MX) Medium Airport</location>
+		<iata>CZM</iata>
+		<icao>MMCZ</icao>
+		<latitude>20.5223999</latitude>
+		<longitude>-86.9255981</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="DCA">
+		<name>Ronald Reagan Washington National Airport (DCA)</name>
+		<location>Washington, United States (US) Large Airport</location>
+		<iata>DCA</iata>
+		<icao>KDCA</icao>
+		<latitude>38.8521004</latitude>
+		<longitude>-77.0376968</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="DEN">
+		<name>Denver International Airport (DEN)</name>
+		<location>Denver, United States (US) Large Airport</location>
+		<iata>DEN</iata>
+		<icao>KDEN</icao>
+		<latitude>39.8616982</latitude>
+		<longitude>-104.6729965</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="DTW">
+		<name>Detroit Metropolitan Wayne County Airport (DTW)</name>
+		<location>Detroit, United States (US) Large Airport</location>
+		<iata>DTW</iata>
+		<icao>KDTW</icao>
+		<latitude>42.2123985</latitude>
+		<longitude>-83.3534012</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="ELP">
+		<name>El Paso International Airport (ELP)</name>
+		<location>El Paso, United States (US) Medium Airport</location>
+		<iata>ELP</iata>
+		<icao>KELP</icao>
+		<latitude>31.8071995</latitude>
+		<longitude>-106.3779984</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="EWR">
+		<name>Newark Liberty International Airport (EWR)</name>
+		<location>Newark, United States (US) Large Airport</location>
+		<iata>EWR</iata>
+		<icao>KEWR</icao>
+		<latitude>40.6925011</latitude>
+		<longitude>-74.1687012</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="EYW">
+		<name>Key West International Airport (EYW)</name>
+		<location>Key West, United States (US) Medium Airport</location>
+		<iata>EYW</iata>
+		<icao>KEYW</icao>
+		<latitude>24.5561008</latitude>
+		<longitude>-81.7595978</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="FPO">
+		<name>Grand Bahama International Airport (FPO)</name>
+		<location>Freeport, Bahamas (BS) Medium Airport</location>
+		<iata>FPO</iata>
+		<icao>MYGF</icao>
+		<latitude>26.5587006</latitude>
+		<longitude>-78.6956024</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="GGT">
+		<name>Exuma International Airport (GGT)</name>
+		<location>George Town, Bahamas (BS) Medium Airport</location>
+		<iata>GGT</iata>
+		<icao>MYEF</icao>
+		<latitude>23.5625992</latitude>
+		<longitude>-75.8779984</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="GSO">
+		<name>Piedmont Triad International Airport (GSO)</name>
+		<location>Greensboro, United States (US) Large Airport</location>
+		<iata>GSO</iata>
+		<icao>KGSO</icao>
+		<latitude>36.0978012</latitude>
+		<longitude>-79.9373016</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="HDN">
+		<name>Yampa Valley Airport (HDN)</name>
+		<location>Hayden, United States (US) Small Airport</location>
+		<iata>HDN</iata>
+		<icao>KHDN</icao>
+		<latitude>40.4812012</latitude>
+		<longitude>-107.2180023</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="IAH">
+		<name>George Bush Intercontinental Houston Airport (IAH)</name>
+		<location>Houston, United States (US) Large Airport</location>
+		<iata>IAH</iata>
+		<icao>KIAH</icao>
+		<latitude>29.9843998</latitude>
+		<longitude>-95.3414001</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="IND">
+		<name>Indianapolis International Airport (IND)</name>
+		<location>Indianapolis, United States (US) Large Airport</location>
+		<iata>IND</iata>
+		<icao>KIND</icao>
+		<latitude>39.7173004</latitude>
+		<longitude>-86.2944031</longitude>
+		<maintenence_base>YES</maintenence_base>
+	</aerodrome>
+	<aerodrome id="JAX">
+		<name>Jacksonville International Airport (JAX)</name>
+		<location>Jacksonville, United States (US) Large Airport</location>
+		<iata>JAX</iata>
+		<icao>KJAX</icao>
+		<latitude>30.4941006</latitude>
+		<longitude>-81.6878967</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="JFK">
+		<name>John F Kennedy International Airport (JFK)</name>
+		<location>New York, United States (US) Large Airport</location>
+		<iata>JFK</iata>
+		<icao>KJFK</icao>
+		<latitude>40.639801</latitude>
+		<longitude>-73.7789002</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="LGA">
+		<name>La Guardia Airport (LGA)</name>
+		<location>New York, United States (US) Large Airport</location>
+		<iata>LGA</iata>
+		<icao>KLGA</icao>
+		<latitude>40.7771988</latitude>
+		<longitude>-73.8725967</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="LIR">
+		<name>Daniel Oduber Quiros International Airport (LIR)</name>
+		<location>Liberia, Costa Rica (CR) Medium Airport</location>
+		<iata>LIR</iata>
+		<icao>MRLB</icao>
+		<latitude>10.5932999</latitude>
+		<longitude>-85.5444031</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="MEM">
+		<name>Memphis International Airport (MEM)</name>
+		<location>Memphis, United States (US) Large Airport</location>
+		<iata>MEM</iata>
+		<icao>KMEM</icao>
+		<latitude>35.0424004</latitude>
+		<longitude>-89.9766998</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="MHH">
+		<name>Marsh Harbour International Airport (MHH)</name>
+		<location>Marsh Harbour, Bahamas (BS) Medium Airport</location>
+		<iata>MHH</iata>
+		<icao>MYAM</icao>
+		<latitude>26.5114002</latitude>
+		<longitude>-77.0835037</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="MIA">
+		<name>Miami International Airport (MIA)</name>
+		<location>Miami, United States (US) Large Airport</location>
+		<iata>MIA</iata>
+		<icao>KMIA</icao>
+		<latitude>25.7931995</latitude>
+		<longitude>-80.2906036</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="MSP">
+		<name>Minneapolis-St Paul International/Wold-Chamberlain Airport (MSP)
+		</name>
+		<location>Minneapolis, United States (US) Large Airport</location>
+		<iata>MSP</iata>
+		<icao>KMSP</icao>
+		<latitude>44.882</latitude>
+		<longitude>-93.2218018</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="MSY">
+		<name>Louis Armstrong New Orleans International Airport (MSY)</name>
+		<location>New Orleans, United States (US) Large Airport</location>
+		<iata>MSY</iata>
+		<icao>KMSY</icao>
+		<latitude>29.9934006</latitude>
+		<longitude>-90.2580032</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="MTY">
+		<name>General Mariano Escobedo International Airport (MTY)</name>
+		<location>Monterrey, Mexico (MX) Large Airport</location>
+		<iata>MTY</iata>
+		<icao>MMMY</icao>
+		<latitude>25.7784996</latitude>
+		<longitude>-100.1070023</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="NAS">
+		<name>Lynden Pindling International Airport (NAS)</name>
+		<location>Nassau, Bahamas (BS) Large Airport</location>
+		<iata>NAS</iata>
+		<icao>MYNN</icao>
+		<latitude>25.0389996</latitude>
+		<longitude>-77.4662018</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="ORD">
+		<name>Chicago O'Hare International Airport (ORD)</name>
+		<location>Chicago, United States (US) Large Airport</location>
+		<iata>ORD</iata>
+		<icao>KORD</icao>
+		<latitude>41.9785996</latitude>
+		<longitude>-87.9048004</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="ORF">
+		<name>Norfolk International Airport (ORF)</name>
+		<location>Norfolk, United States (US) Large Airport</location>
+		<iata>ORF</iata>
+		<icao>KORF</icao>
+		<latitude>36.8945999</latitude>
+		<longitude>-76.2012024</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="PHL">
+		<name>Philadelphia International Airport (PHL)</name>
+		<location>Philadelphia, United States (US) Large Airport</location>
+		<iata>PHL</iata>
+		<icao>KPHL</icao>
+		<latitude>39.8718987</latitude>
+		<longitude>-75.2410965</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="PIT">
+		<name>Pittsburgh International Airport (PIT)</name>
+		<location>Pittsburgh, United States (US) Large Airport</location>
+		<iata>PIT</iata>
+		<icao>KPIT</icao>
+		<latitude>40.4915009</latitude>
+		<longitude>-80.2329025</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="PLS">
+		<name>Providenciales Airport (PLS)</name>
+		<location>Providenciales Island, Turks and Caicos Islands (TC) Medium
+			Airport</location>
+		<iata>PLS</iata>
+		<icao>MBPV</icao>
+		<latitude>21.7735996</latitude>
+		<longitude>-72.2658997</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="PNS">
+		<name>Pensacola Regional Airport (PNS)</name>
+		<location>Pensacola, United States (US) Medium Airport</location>
+		<iata>PNS</iata>
+		<icao>KPNS</icao>
+		<latitude>30.4734001</latitude>
+		<longitude>-87.1865997</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="PVD">
+		<name>Theodore Francis Green State Airport (PVD)</name>
+		<location>Providence, United States (US) Medium Airport</location>
+		<iata>PVD</iata>
+		<icao>KPVD</icao>
+		<latitude>41.7326012</latitude>
+		<longitude>-71.4204025</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="RDU">
+		<name>Raleigh Durham International Airport (RDU)</name>
+		<location>Raleigh/Durham, United States (US) Large Airport</location>
+		<iata>RDU</iata>
+		<icao>KRDU</icao>
+		<latitude>35.8776016</latitude>
+		<longitude>-78.7874985</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="RIC">
+		<name>Richmond International Airport (RIC)</name>
+		<location>Richmond, United States (US) Large Airport</location>
+		<iata>RIC</iata>
+		<icao>KRIC</icao>
+		<latitude>37.5051994</latitude>
+		<longitude>-77.3197021</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="RSW">
+		<name>Southwest Florida International Airport (RSW)</name>
+		<location>Fort Myers, United States (US) Large Airport</location>
+		<iata>RSW</iata>
+		<icao>KRSW</icao>
+		<latitude>26.5361996</latitude>
+		<longitude>-81.7552032</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="SAT">
+		<name>San Antonio International Airport (SAT)</name>
+		<location>San Antonio, United States (US) Large Airport</location>
+		<iata>SAT</iata>
+		<icao>KSAT</icao>
+		<latitude>29.5337009</latitude>
+		<longitude>-98.4698029</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="SDF">
+		<name>Louisville International Standiford Field Airport (SDF)</name>
+		<location>Louisville, United States (US) Large Airport</location>
+		<iata>SDF</iata>
+		<icao>KSDF</icao>
+		<latitude>38.1744003</latitude>
+		<longitude>-85.7360001</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+	<aerodrome id="STL">
+		<name>St Louis Lambert International Airport (STL)</name>
+		<location>St Louis, United States (US) Large Airport</location>
+		<iata>STL</iata>
+		<icao>KSTL</icao>
+		<latitude>38.7486992</latitude>
+		<longitude>-90.3700027</longitude>
+		<maintenence_base>NO</maintenence_base>
+	</aerodrome>
+
+
+
+</aerodromes>

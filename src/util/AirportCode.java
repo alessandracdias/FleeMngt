@@ -22,7 +22,8 @@ public class AirportCode {
 	protected String icaoCode;
 	protected double latitude;
 	protected double longitude;
-
+	protected String maintenance_base;
+	
 	private String query;
 	
 	public AirportCode(String query) {
@@ -53,6 +54,10 @@ public class AirportCode {
 
 	public double getLongitude() {
 		return longitude;
+	}
+
+	public String getMaintenance_base() {
+		return maintenance_base;
 	}
 
 	public boolean fetch() {
@@ -115,6 +120,7 @@ public class AirportCode {
 				this.icaoCode = icaoElement.text();
 				this.latitude = Double.parseDouble(latitudeElement.text());
 				this.longitude = Double.parseDouble(longitudeElement.text());
+				this.maintenance_base = "NO";
 				
 				this.saveToCache();
 				
@@ -142,8 +148,9 @@ public class AirportCode {
 		obj += "  iatacode: \""+this.iataCode+"\",\n";
 		obj += "  icaocode: \""+this.icaoCode+"\",\n";
 		obj += "  latitude: "+this.latitude+",\n";
-		obj += "  longitude: "+this.longitude+"\n}\n";
-
+		//obj += "  longitude: "+this.longitude+"\n}\n";
+		obj += "  longitude: "+this.longitude+",\n";
+		obj += "  maintenence_base: \""+this.maintenance_base+"\",\n}\n"; 
 		return obj;
 	}
 
@@ -156,6 +163,7 @@ public class AirportCode {
 		obj += "    <icao>"+this.icaoCode+"</icao>\n";
 		obj += "    <latitude>"+this.latitude+"</latitude>\n";
 		obj += "    <longitude>"+this.longitude+"</longitude>\n";
+		obj += "    <maintenence_base>"+this.maintenance_base+"</maintenence_base>\n";
 		obj += "</aerodrome>";
 
 		return obj;
@@ -177,8 +185,8 @@ public class AirportCode {
 	    	  
 	    	  this.createTableIfNotExists(c, stmt);
 
-	    	  stmt.executeUpdate("INSERT INTO AIRPORTS VALUES ('"+this.iataCode+"','"+this.icaoCode+"','"+StringEscapeUtils.escapeSql(this.name)+"', '"+this.location+"', "+this.latitude+", "+this.longitude+")");
-	    	  
+	    	  //stmt.executeUpdate("INSERT INTO AIRPORTS VALUES ('"+this.iataCode+"','"+this.icaoCode+"','"+StringEscapeUtils.escapeSql(this.name)+"', '"+this.location+"', "+this.latitude+", "+this.longitude+")");
+	    	  stmt.executeUpdate("INSERT INTO AIRPORTS VALUES ('"+this.iataCode+"','"+this.icaoCode+"','"+StringEscapeUtils.escapeSql(this.name)+"', '"+this.location+"', "+this.latitude+", "+this.longitude+",'"+this.maintenance_base+"')");
 	    	  stmt.close();
 	    	  c.close();
 	      }
@@ -188,7 +196,8 @@ public class AirportCode {
 	}
 	
 	private void createTableIfNotExists(Connection c, Statement stmt) throws SQLException {
-		stmt.executeUpdate("CREATE TABLE IF NOT EXISTS AIRPORTS (IATA TEXT PRIMARY KEY NOT NULL, ICAO TEXT NOT NULL, NAME TEXT, LOCATION TEXT, LATITUDE REAL, LONGITUDE REAL)");
+		//stmt.executeUpdate("CREATE TABLE IF NOT EXISTS AIRPORTS (IATA TEXT PRIMARY KEY NOT NULL, ICAO TEXT NOT NULL, NAME TEXT, LOCATION TEXT, LATITUDE REAL, LONGITUDE REAL)");
+		stmt.executeUpdate("CREATE TABLE IF NOT EXISTS AIRPORTS (IATA TEXT PRIMARY KEY NOT NULL, ICAO TEXT NOT NULL, NAME TEXT, LOCATION TEXT, LATITUDE REAL, LONGITUDE REAL, MAINTENANCE BASE)");
 	}
 	
 	private boolean loadFromCache() {
@@ -211,7 +220,8 @@ public class AirportCode {
 				this.location = rs.getString("LOCATION");
 				this.latitude = rs.getFloat("LATITUDE");
 				this.longitude = rs.getFloat("LONGITUDE");
-
+				this.maintenance_base = "NO";
+				
 				stmt.close();
 				c.close();
 
@@ -227,8 +237,12 @@ public class AirportCode {
 
 	public static void main(String[] args) {
 		
-		String[] airports = {"ABZ", "AES", "ALL", "AMS", "BGO", "BHX", "BIO", "BLL", "BLQ", "BOD", "BRE", "BRS", "BRU", "CWL", "DUS", "FLR", "FRA", "GOT", "GVA", "HAM", "KRK", "LPI", "LUX", "LYS", "MAN", "NCE", "NCL", "NUE", "OSL", "PLR", "PRG", "STR", "TLS", "TRD", "TRF", "TRN", "TRO"};
-		
+		//String[] airports = {"ABZ", "AES", "ALL", "AMS", "BGO", "BHX", "BIO", "BLL", "BLQ", "BOD", "BRE", "BRS", "BRU", "CWL", "DUS", "FLR", "FRA", "GOT", "GVA", "HAM", "KRK", "LPI", "LUX", "LYS", "MAN", "NCE", "NCL", "NUE", "OSL", "PLR", "PRG", "STR", "TLS", "TRD", "TRF", "TRN", "TRO"};
+		// String[] airports = {"GRU","GIG","POA","MAO","BSB","CWB","FLN","REC","SSA"};
+		String[] airports = {"ABQ", "ATL", "BDL", "BNA", "CHS", "CLE", "CMH", "CZM", "DCA", "DEN", "DTW", "ELP",
+				"EWR", "EYW", "FPO", "GGT", "GSO", "HDN", "IAH", "IND", "JAX", "JFK", "LGA", 
+				"LIR", "MEM", "MHH", "MIA", "MSP", "MSY", "MTY", "NAS", "ORD", "ORF",
+				"PHL", "PIT", "PLS", "PNS", "PVD", "RDU", "RIC", "RSW", "SAT", "SDF", "STL"};
 		for (String airport : airports) {
 			AirportCode code = new AirportCode(airport);
 			while (code.fetch()==false) {
